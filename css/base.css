@@ -1,0 +1,40 @@
+html{
+	margin: 0px;
+	padding: 0px;
+	background: #0c84d6;
+	font-family: Roboto;
+	color: #fff;
+}
+
+body{
+	padding: 0px;
+	margin: 0px;
+	min-height: 100%;
+	position: relative;
+}
+
+img{
+	border: none;
+}
+
+*{	
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+	font-family: "Roboto";
+}
+
+a{
+	text-decoration: none;
+	color: #fff;
+}
+
+a:hover{
+	color: #ccc;
+}
+
+.clearfix{
+	clear: both;
+}

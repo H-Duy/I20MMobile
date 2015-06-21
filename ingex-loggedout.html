@@ -1,0 +1,2352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=480" />
+	<title>Moblie</title>
+	<link rel="stylesheet" href="fonts/font-awesome.min.css" type="text/css" media="all">
+	<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="css/jquery.mobile-1.4.3.css" media="all">
+	<link rel="stylesheet" type="text/css" href="css/jquery.mobile.datepicker.css" media="all">
+	<link rel="stylesheet" type="text/css" href="css/jquery.mobile.datepicker.theme.css" media="all">
+	<link rel="stylesheet" type="text/css" href="css/jquery.mobile-git.css" media="all" /> 
+	<link rel="stylesheet" type="text/css" href="js/jquery-ui.css" media="all">
+	<link rel="stylesheet" type="text/css" href="css/flexslider.css" media="all">
+	<link rel="stylesheet" type="text/css" href="css/style-dashboard.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="js/jquery.bxslider.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="css/base.css" media="all">
+	<link rel="stylesheet" type="text/css" href="css/module.css" media="all">
+	<link rel="stylesheet" type="text/css" href="css/layout.css" media="all">
+	<link rel="stylesheet" type="text/css" href="css/state.css" media="all">
+	<link rel="stylesheet" type="text/css" href="style.css" media="all">
+	<script src="js/jquery-1.10.2.js" type="text/javascript"></script>
+	<script src="js/jquery.mobile-1.4.3.js" type="text/javascript"></script>
+	<script src="js/jquery-ui.js" type="text/javascript"></script>
+	<script src="js/jquery-ui/datepicker.js" type="text/javascript"></script>
+	<script src="js/jquery.ui.touch-punch.js" type="text/javascript"></script>
+	<script src="js/jquery.flexslider.js" type="text/javascript"></script>
+	<script src="js/jquery.mobile.datepicker.js" type="text/javascript"></script>
+	<script src="js/jquery.mobile-git.js" type="text/javascript"></script>
+	<script src="js/jquery.bxslider.js" type="text/javascript"></script>
+	<script src="js/custom.js" type="text/javascript"></script>
+	<script>
+		jQuery(document).ready(function(){
+			$.mobile.initializePage();
+		});
+	</script>
+</head>
+<body>
+	<div id="wrapper">
+		<!-- page One -->
+		<div data-role="page" id="page-one" data-title="Product Page">
+			<div data-role="panel" id="menu" class="menu-container" data-display="push" data-position="left">
+				<div class="site-login">
+					<form action="POST">
+						<i class="fa fa-user"></i>
+						<input type="text" name="uname" placeholder="Usuario">
+						<input type="password" name="pwd" placeholder="Password">
+						<input type="submit" value="Conectar">
+						<p><a href="#">Olvidaste tu contra seña</a></p>
+					</form>
+				</div>
+				<ul>
+					<li><a href="#page-four"><i class="fa fa-minus"></i>inicio</a></li>
+					<li><a href="#"><i class="fa fa-minus"></i>inglés en 20 minutos</a></li>
+					<li><a href="#page-three"><i class="fa fa-minus"></i>contenido</a></li>
+					<li><a href="#page-two"><i class="fa fa-minus"></i>Preguntas Frecuentes</a></li>
+				</ul>
+				<p class="copyright">Copyright &copy; 2012 Panamerican Language Network. Ayuda · Preguntas Frecuentes · Contacto</p>
+			</div><!-- /panel -->
+			<div data-role="header" class="header">
+				<a id="btn-menu" class="ui-btn" href="#menu"><span></span></a>
+				<p class="header-logo">Inglésen<b>20minutos</b></p>
+				<div class="select-language" data-role="fieldcontain">
+					<select name="language" id="slt-language">
+						<option value="fra">FRA</option>
+						<option value="spa">SPA</option>
+						<option value="eng">INT</option>
+					</select>
+				</div>
+			</div>
+			<div data-role="main" class="ui-content" id="home-page">
+				<div id="slider-intro" class="flexslider">
+					<ul class="slides">
+						<li>
+							<img src="images/slider01.jpg" alt="" />
+							<div class="caption">
+								<div class="tel"><i class="fa fa-mobile"></i>(305)361-5705</div>
+								<div class="main-caption">
+									<h2>Sistema de<br/>aprendizaje de<br/>20 minutos por dia</h2>
+									<p>Práctica un mínimo de 20 minutos al día</p>
+									<p>Conversa con tutores nativos</p>
+									<p>Vídeos exclusivos</p>
+									<p>Actividades y ejercicios interactivos</p>
+									<p>Para todos los niveles</p>
+									<ul class="control-cap">
+										<li><a href="#">Inscríbete</a></li>
+										<li><a href="#">Vídeo<br/>Introductorio</a></li>
+									</ul>
+								</div>
+							</div>
+						</li>
+						<li>
+							<img src="images/slider02.jpg" alt="" />
+							<div class="caption">
+								<div class="tel"><i class="fa fa-mobile"></i>(305)1231231</div>
+								<div class="main-caption">
+									<h2>Sistema de<br/>aprendizaje de<br/>20 minutos por dia</h2>
+									<p>Práctica un mínimo de 20 minutos al día</p>
+									<p>Conversa con tutores nativos</p>
+									<p>Vídeos exclusivos</p>
+									<p>Actividades y ejercicios interactivos</p>
+									<p>Para todos los niveles</p>
+									<ul class="control-cap">
+										<li><a href="#">Inscríbete</a></li>
+										<li><a href="#">Vídeo<br/>Introductorio</a></li>
+									</ul>
+								</div>
+							</div>
+						</li>
+						<li>
+							<img src="images/slider01.jpg" alt="" />
+							<div class="caption">
+								<div class="tel"><i class="fa fa-mobile"></i>(305)12332122</div>
+								<div class="main-caption">
+									<h2>Sistema de<br/>aprendizaje de<br/>20 minutos por dia</h2>
+									<p>Práctica un mínimo de 20 minutos al día</p>
+									<p>Conversa con tutores nativos</p>
+									<p>Vídeos exclusivos</p>
+									<p>Actividades y ejercicios interactivos</p>
+									<p>Para todos los niveles</p>
+									<ul class="control-cap">
+										<li><a href="#">Inscríbete</a></li>
+										<li><a href="#">Vídeo<br/>Introductorio</a></li>
+									</ul>
+								</div>
+							</div>
+						</li>
+						<li>
+							<img src="images/slider02.jpg" alt="" />
+							<div class="caption">
+								<div class="tel"><i class="fa fa-mobile"></i>(305)1111111</div>
+								<div class="main-caption">
+									<h2>Sistema de<br/>aprendizaje de<br/>20 minutos por dia</h2>
+									<p>Práctica un mínimo de 20 minutos al día</p>
+									<p>Conversa con tutores nativos</p>
+									<p>Vídeos exclusivos</p>
+									<p>Actividades y ejercicios interactivos</p>
+									<p>Para todos los niveles</p>
+									<ul class="control-cap">
+										<li><a href="#">Inscríbete</a></li>
+										<li><a href="#">Vídeo<br/>Introductorio</a></li>
+									</ul>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+<!-- Page two -->
+
+		<div data-role="page" id="page-two" data-title="Product Page">
+			<div data-role="panel" id="menu2" class="menu-container" data-display="push" data-position="left">
+				<div class="site-login">
+					<form action="POST">
+						<i class="fa fa-user"></i>
+						<input type="text" name="uname" placeholder="Usuario">
+						<input type="password" name="pwd" placeholder="Password">
+						<input type="submit" value="Conectar">
+						<p><a href="#">Olvidaste tu contra seña</a></p>
+					</form>
+				</div>
+				<ul>
+					<li><a href="#page-four"><i class="fa fa-minus"></i>inicio</a></li>
+					<li><a href="#"><i class="fa fa-minus"></i>inglés en 20 minutos</a></li>
+					<li><a href="#page-three"><i class="fa fa-minus"></i>contenido</a></li>
+					<li><a href="#page-two"><i class="fa fa-minus"></i>Preguntas Frecuentes</a></li>
+				</ul>
+				<p class="copyright">Copyright &copy; 2012 Panamerican Language Network. Ayuda · Preguntas Frecuentes · Contacto</p>
+			</div><!-- /panel -->
+			<div data-role="header" class="header">
+				<a id="btn-menu" class="ui-btn" href="#menu2"><span></span></a>
+				<p class="header-logo">Inglésen<b>20minutos</b></p>
+				<div class="select-language" data-role="fieldcontain">
+					<select name="language" id="slt-language">
+						<option value="fra">FRA</option>
+						<option value="spa">SPA</option>
+						<option value="eng">INT</option>
+					</select>
+				</div>
+			</div>
+			<div data-role="main" class="ui-content">
+				<div class="content-page">
+					<h1 class="title">Preguntas Frecuentes</h1>
+					<div class="desc">
+						<p>Arrastra las palabras que describen diferentes profesiones y oficios hasta la imagen que corresponde.</p>
+					</div>
+					<div class="thread">
+						<h3>¿Qué es Ingés en 20 minutos?</h3>
+						<p>Inglés en 20 minutos es un curso completo de inglés online preparado para que  los alumnos, practicando 20 minutos al dia, consigan al cabo de entre 8 y 12 meses un nivel avanzado de ingés tanto para hablar, comprender y escribir</p>
+					</div>
+					<div class="thread">
+						<h3>¿Su efectividad en el aprendizaje está comprobada?</h3>
+						<p>Inglés en 20 minutos es un curso completo de inglés online preparado para que los alumnos, practicando 20 minutos al dia, consigan al cabo de entre 8 y 12 meses un nivel avanzado de ingés tanto para hablar, comprender y escribir. Inglés en 20 minutos es un curso completo de inglés online preparado para que los alumnos, practicando 20 minutos al dia, consigan al cabo de entre 8 y 12 meses un nivel avanzado de ingés tanto para hablar, comprender y escribir</p>
+						<p>Inglés en 20 minutos es un curso completo de inglés online preparado para que los alumnos, practicando 20 minutos al dia, consigan al cabo de entre 8 y 12 meses un nivel avanzado de ingés tanto para hablar, comprender y escribir</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Page three -->
+
+		<div data-role="page" id="page-three" data-title="Product Page">
+			<div data-role="panel" id="menu3" class="menu-container" data-display="push" data-position="left">
+				<div class="site-login">
+					<form action="POST">
+						<i class="fa fa-user"></i>
+						<input type="text" name="uname" placeholder="Usuario">
+						<input type="password" name="pwd" placeholder="Password">
+						<input type="submit" value="Conectar">
+						<p><a href="#">Olvidaste tu contra seña</a></p>
+					</form>
+				</div>
+				<ul>
+					<li><a href="#page-four"><i class="fa fa-minus"></i>inicio</a></li>
+					<li><a href="#"><i class="fa fa-minus"></i>inglés en 20 minutos</a></li>
+					<li><a href="#page-three"><i class="fa fa-minus"></i>contenido</a></li>
+					<li><a href="#page-two"><i class="fa fa-minus"></i>Preguntas Frecuentes</a></li>
+				</ul>
+				<p class="copyright">Copyright &copy; 2012 Panamerican Language Network. Ayuda · Preguntas Frecuentes · Contacto</p>
+			</div><!-- /panel -->
+			<div data-role="header" class="header">
+				<a id="btn-menu" class="ui-btn" href="#menu3"><span></span></a>
+				<p class="header-logo">Inglésen<b>20minutos</b></p>
+				<div class="select-language" data-role="fieldcontain">
+					<select name="language" id="slt-language">
+						<option value="fra">FRA</option>
+						<option value="spa">SPA</option>
+						<option value="eng">INT</option>
+					</select>
+				</div>
+			</div>
+			<div data-role="main" class="ui-content">
+				<div class="content-page">
+					<h1 class="title">programa <br> de estudios</h1>
+					<div class="desc">
+						<p>Arrastra las palabras que describen diferentes profesiones y oficios hasta la imagen que corresponde.</p>
+					</div>
+					<div class="lesson">
+						<div class="level">
+							<div class="number-level">
+								Nivel 1: <b>Básico</b>
+							</div>
+							<div class="name-level">
+								U1 Getting Acquainted
+							</div>
+						</div>
+						<p>“Hoy es el primer día de Lesley en la agencia de viajes Travel Tours y está conociendo a sus compañeros de trabajo”</p>
+						<iframe width="260" height="145" src="http://www.youtube.com/embed/Jntxs4dspRU?rel=0" frameborder="0" allowfullscreen></iframe>
+						<div class="detail-level">
+							<h5>Unit objectives</h5>
+							<ul>
+								<li>Los números del 1 al 30</li>
+								<li> Profesiones y oficios diferentes maneras de saludar y presentarte a ti mismo o presentar a otras personas, preguntar sobre la edad y estado civil.</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	<!-- Page four -->
+
+		<div data-role="page" id="page-four" data-title="Product Page">
+			<div data-role="panel" id="menu4" class="menu-container" data-display="push" data-position="left">
+				<div class="site-login">
+					<form action="POST">
+						<i class="fa fa-user"></i>
+						<input type="text" name="uname" placeholder="Usuario">
+						<input type="password" name="pwd" placeholder="Password">
+						<input type="submit" value="Conectar">
+						<p><a href="#">Olvidaste tu contra seña</a></p>
+					</form>
+				</div>
+				<ul>
+					<li><a href="#page-four"><i class="fa fa-minus"></i>inicio</a></li>
+					<li><a href="#"><i class="fa fa-minus"></i>inglés en 20 minutos</a></li>
+					<li><a href="#page-three"><i class="fa fa-minus"></i>contenido</a></li>
+					<li><a href="#page-two"><i class="fa fa-minus"></i>Preguntas Frecuentes</a></li>
+				</ul>
+				<p class="copyright">Copyright &copy; 2012 Panamerican Language Network. Ayuda · Preguntas Frecuentes · Contacto</p>
+			</div><!-- /panel -->
+			<div data-role="header" class="header">
+				<a id="btn-menu" class="ui-btn" href="#menu4"><span></span></a>
+				<p class="header-logo">Inglésen<b>20minutos</b></p>
+				<div class="select-language" data-role="fieldcontain">
+					<select name="language" id="slt-language">
+						<option value="fra">FRA</option>
+						<option value="spa">SPA</option>
+						<option value="eng">INT</option>
+					</select>
+				</div>
+			</div>
+			<div data-role="main" class="ui-content">
+				<div class="content-page">
+					<div id="register">
+						<h1 class="title">Mi Perfil</h1>
+	                    <form method="POST">
+	                       <label for="fname">Nombre</label>
+	                       <input type="text" name="fname">
+	                       <label for="lname">Apellido</label>
+	                       <input type="text" name="lname">
+	                       <label for="username">Nombre de usuario</label>
+	                       <input type="text" name="username">
+	                       <div class="change-pwd">
+	                       		<label for="pwd">Cambia tu contraseñ a</label>
+	                       		<input type="password" name="pwd">
+	                       		<label for="re-pwd">Confirma el cambio de contraseña</label>
+	                       		<input type="password" name="re-pwd">
+	                       </div>
+	                       <div class="infor">
+	                       		<label for="birthday">Fecha de nacimiento</label>
+	                       		<input type="text" data-inline="false" data-role="date" name="birthday" id="birthday">
+	                       		<label for="sex" class="select">Sexo</label>
+								<select name="sexo" data-mini="true">
+									<option value="masculino">Masculino</option>
+									<option value="feminino">Feminino</option>
+								</select> 
+								<label for="mobile">Teléfono celular</label>
+								<input type="text" name="mobile">
+								<label for="email">Correo electrónico</label>
+								<input type="text" name="email">
+	                       </div>
+	                       <div class="more">
+	                       		<label for="occupation">Profesion</label>
+	                       		<input type="text" name="occupation">
+	                       		<label for="studies">Estudios</label>
+	                       		<input type="text" name="studies">
+	                       		<label for="languages">Idiomas</label>
+	                       		<input type="text" name="languages">
+	                       		<label for="hobbies">Hobbies</label>
+	                       		<input type="text" name="hobbies">
+	                       		<label for="local">Ubicación</label>
+	                       		<input type="text" name="local" id="">
+	                       </div>
+	                       <input type="submit" value="Guardar Perfil">
+	                       <div class="clearfix"></div>
+	                    </form>
+	                </div>
+	            </div>
+			</div>
+		</div>
+		
+		<!-- Popup 1 -->
+
+		<div data-role="page" id="popup01" data-title="Product Page" class="popup-container">
+			<div data-role="panel" id="menu4" class="menu-container" data-display="push" data-position="left">
+				<div class="site-login">
+					<form action="POST">
+						<i class="fa fa-user"></i>
+						<input type="text" name="uname" placeholder="Usuario">
+						<input type="password" name="pwd" placeholder="Password">
+						<input type="submit" value="Conectar">
+						<p><a href="#">Olvidaste tu contra seña</a></p>
+					</form>
+				</div>
+				<ul>
+					<li><a href="#page-four"><i class="fa fa-minus"></i>inicio</a></li>
+					<li><a href="#"><i class="fa fa-minus"></i>inglés en 20 minutos</a></li>
+					<li><a href="#page-three"><i class="fa fa-minus"></i>contenido</a></li>
+					<li><a href="#page-two"><i class="fa fa-minus"></i>Preguntas Frecuentes</a></li>
+				</ul>
+				<p class="copyright">Copyright &copy; 2012 Panamerican Language Network. Ayuda · Preguntas Frecuentes · Contacto</p>
+			</div><!-- /panel -->
+			<div data-role="header" class="header">
+				<a id="btn-menu" class="ui-btn" href="#menu4"><span></span></a>
+				<p class="header-logo">Inglésen<b>20minutos</b></p>
+				<div class="select-language" data-role="fieldcontain">
+					<select name="language" id="slt-language">
+						<option value="fra">FRA</option>
+						<option value="spa">SPA</option>
+						<option value="eng">INT</option>
+					</select>
+				</div>
+			</div>
+			<div data-role="main" class="ui-content">
+				<div class="content-page popup">
+					<h2 class="title-popup">¿Olvidaste tu contraseña?</h2>
+					<div class="desc-popup">Introduce tu username o e-mail:</div>
+					<form action="post">
+						<input type="text" name="email">
+						<input type="submit" value="ENVIAR">
+					</form>
+	            </div>
+			</div>
+		</div>
+
+		<!-- Popup 2 -->
+
+		<div data-role="page" id="popup02" data-title="Product Page" class="popup-container">
+			<div data-role="panel" id="menu4" class="menu-container" data-display="push" data-position="left">
+				<div class="site-login">
+					<form action="POST">
+						<i class="fa fa-user"></i>
+						<input type="text" name="uname" placeholder="Usuario">
+						<input type="password" name="pwd" placeholder="Password">
+						<input type="submit" value="Conectar">
+						<p><a href="#">Olvidaste tu contra seña</a></p>
+					</form>
+				</div>
+				<ul>
+					<li><a href="#page-four"><i class="fa fa-minus"></i>inicio</a></li>
+					<li><a href="#"><i class="fa fa-minus"></i>inglés en 20 minutos</a></li>
+					<li><a href="#page-three"><i class="fa fa-minus"></i>contenido</a></li>
+					<li><a href="#page-two"><i class="fa fa-minus"></i>Preguntas Frecuentes</a></li>
+				</ul>
+				<p class="copyright">Copyright &copy; 2012 Panamerican Language Network. Ayuda · Preguntas Frecuentes · Contacto</p>
+			</div><!-- /panel -->
+			<div data-role="header" class="header">
+				<a id="btn-menu" class="ui-btn" href="#menu4"><span></span></a>
+				<p class="header-logo">Inglésen<b>20minutos</b></p>
+				<div class="select-language" data-role="fieldcontain">
+					<select name="language" id="slt-language">
+						<option value="fra">FRA</option>
+						<option value="spa">SPA</option>
+						<option value="eng">INT</option>
+					</select>
+				</div>
+			</div>
+			<div data-role="main" class="ui-content">
+				<div class="content-page popup">
+					<h2 class="title-popup">¡aviso!</h2>
+					<div class="desc-popup">En una semana tu código dejará de tener validez, adquiere un código para continuar tu curso de Ingés en 20 minutos</div>
+					<form action="post">
+						<input type="submit" value="ADQUIRIR NUEVO CÓDIGO">
+					</form>
+	            </div>
+			</div>
+		</div>
+		
+		<!-- Popup 3 -->
+
+		<div data-role="page" id="popup03" data-title="Product Page" class="popup-container">
+			<div data-role="panel" id="menu4" class="menu-container" data-display="push" data-position="left">
+				<div class="site-login">
+					<form action="POST">
+						<i class="fa fa-user"></i>
+						<input type="text" name="uname" placeholder="Usuario">
+						<input type="password" name="pwd" placeholder="Password">
+						<input type="submit" value="Conectar">
+						<p><a href="#">Olvidaste tu contra seña</a></p>
+					</form>
+				</div>
+				<ul>
+					<li><a href="#page-four"><i class="fa fa-minus"></i>inicio</a></li>
+					<li><a href="#"><i class="fa fa-minus"></i>inglés en 20 minutos</a></li>
+					<li><a href="#page-three"><i class="fa fa-minus"></i>contenido</a></li>
+					<li><a href="#page-two"><i class="fa fa-minus"></i>Preguntas Frecuentes</a></li>
+				</ul>
+				<p class="copyright">Copyright &copy; 2012 Panamerican Language Network. Ayuda · Preguntas Frecuentes · Contacto</p>
+			</div><!-- /panel -->
+			<div data-role="header" class="header">
+				<a id="btn-menu" class="ui-btn" href="#menu4"><span></span></a>
+				<p class="header-logo">Inglésen<b>20minutos</b></p>
+				<div class="select-language" data-role="fieldcontain">
+					<select name="language" id="slt-language">
+						<option value="fra">FRA</option>
+						<option value="spa">SPA</option>
+						<option value="eng">INT</option>
+					</select>
+				</div>
+			</div>
+			<div data-role="main" class="ui-content">
+				<div class="content-page popup">
+					<h2 class="title-popup">¡aviso!</h2>
+					<div class="desc-popup">Su código ha dejado de tener validez. Para continuar adquiera un nuevo código de activación en la tienda virtual</div>
+					<form action="post">
+						<input type="submit" value="ADQUIRIR NUEVO CÓDIGO">
+					</form>
+	            </div>
+			</div>
+		</div>
+
+		<!-- Popup 4 -->
+
+		<div data-role="page" id="popup04" data-title="Product Page" class="popup-container">
+			<div data-role="panel" id="menu4" class="menu-container" data-display="push" data-position="left">
+				<div class="site-login">
+					<form action="POST">
+						<i class="fa fa-user"></i>
+						<input type="text" name="uname" placeholder="Usuario">
+						<input type="password" name="pwd" placeholder="Password">
+						<input type="submit" value="Conectar">
+						<p><a href="#">Olvidaste tu contra seña</a></p>
+					</form>
+				</div>
+				<ul>
+					<li><a href="#page-four"><i class="fa fa-minus"></i>inicio</a></li>
+					<li><a href="#"><i class="fa fa-minus"></i>inglés en 20 minutos</a></li>
+					<li><a href="#page-three"><i class="fa fa-minus"></i>contenido</a></li>
+					<li><a href="#page-two"><i class="fa fa-minus"></i>Preguntas Frecuentes</a></li>
+				</ul>
+				<p class="copyright">Copyright &copy; 2012 Panamerican Language Network. Ayuda · Preguntas Frecuentes · Contacto</p>
+			</div><!-- /panel -->
+			<div data-role="header" class="header">
+				<a id="btn-menu" class="ui-btn" href="#menu4"><span></span></a>
+				<p class="header-logo">Inglésen<b>20minutos</b></p>
+				<div class="select-language" data-role="fieldcontain">
+					<select name="language" id="slt-language">
+						<option value="fra">FRA</option>
+						<option value="spa">SPA</option>
+						<option value="eng">INT</option>
+					</select>
+				</div>
+			</div>
+			<div data-role="main" class="ui-content">
+				<div class="content-page popup">
+					<h2 class="title-popup">¿Eres nuevo? ¡Regístrate!</h2>
+					<div class="desc-popup"></div>
+					<form action="post" id="register-member">
+						<p>
+							<input type="text" name="fname" placeholder="Nombre">
+							<input type="text" name="lname" placeholder="Apellido">
+						</p>
+						<input type="text" name="email" placeholder="Email">
+						<input type="text" name="reemail" placeholder="Vuelve a escribir tu email">
+						<p>
+							<input type="password" name="pwd" placeholder="Contraseña">
+							<input type="password" name="repwd" placeholder="Repetir Contraseña">
+						</p>
+						<p class="code">
+							<input type="text" name="code" placeholder="Código de acceso">
+							<input type="submit" value="COMENZAR">
+						</p>
+					</form>
+					<p class="link">
+						<a href="#" class="">Adquiere tu código de acceso</a>
+					</p>
+					<div class="note-for">
+						<span>Haz nuestros test de nivel y empieza el curso desde tu nivel</span>
+						<a href="#" class="btn-link">HACER TEST DE NIVEL</a>
+						<div class="clearfix"></div>
+					</div>
+	            </div>
+			</div>
+		</div>
+		
+		<!--begin home escritorio-->
+		<div id="home-escritorio" class="escritorio" data-role="page" data-title="Home Escritorio Page">
+			<div data-role="panel" id="menu" class="menu-container" data-display="push" data-position="left">
+				<div class="site-login">
+					<form action="POST">
+						<i class="fa fa-user"></i>
+						<input type="text" name="uname" placeholder="Usuario">
+						<input type="password" name="pwd" placeholder="Password">
+						<input type="submit" value="Conectar">
+						<p><a href="#">Olvidaste tu contra seña</a></p>
+					</form>
+				</div>
+				<ul>
+					<li><a href="#page-four"><i class="fa fa-minus"></i>inicio</a></li>
+					<li><a href="#"><i class="fa fa-minus"></i>inglés en 20 minutos</a></li>
+					<li><a href="#page-three"><i class="fa fa-minus"></i>contenido</a></li>
+					<li><a href="#page-two"><i class="fa fa-minus"></i>Preguntas Frecuentes</a></li>
+				</ul>
+				<p class="copyright">Copyright &copy; 2012 Panamerican Language Network. Ayuda · Preguntas Frecuentes · Contacto</p>
+			</div><!-- /panel -->
+			<div data-role="header" class="header">
+				<a id="btn-menu" class="ui-btn" href="#menu"><span></span></a>
+				<p class="header-logo">Inglésen<b>20minutos</b></p>
+				<div class="select-language" data-role="fieldcontain">
+					<select name="language" id="slt-language">
+						<option value="fra">FRA</option>
+						<option value="spa">SPA</option>
+						<option value="eng">INT</option>
+					</select>
+				</div>
+			</div>
+			<div class="ui-content" data-role="main">
+				<div class="inner-content">
+					<div class="header-content">
+						<h1>Home</h1>
+						<div class="label-level">
+							<p>Progreso</p>
+						</div>
+						<h2>Where are you? <span class="unit">Level 1 · Unit 3</span></h2>
+					</div><!--header content-->
+					<div class="sub-level">
+						<div class="line-percent">
+							<ul>
+								<li>0%</li>
+								<li>5%</li>
+								<li>10%</li>
+								<li>15%</li>
+								<li>20%</li>
+								<li>25%</li>
+								<li>30%</li>
+								<li>35%</li>
+								<li>40%</li>
+								<li class="block arrow-yellow-progress-45">45%</li>
+								<li>50%</li>
+								<li>55%</li>
+								<li>60%</li>
+								<li>65%</li>
+								<li class="block arrow-yellow-progress-70">70%</li>
+								<li>75%</li>
+								<li>80%</li>
+								<li>85%</li>
+								<li>90%</li>
+								<li>95%</li>
+								<li>100%</li>
+							</ul>
+							<div class="line">
+								<img class="arrow-yellow arrow-yellow-progress-45" alt="" src="images/arrow-yellow.png">
+								<div class="bg-green bg-green-progress-45"></div>
+								<img class="arrow-yellow arrow-yellow-progress-70" alt="" src="images/arrow-red.png">
+							</div>
+							<div class="progressbar-user-box">
+								<div class="user-info">
+									<p>Hasta el momento llevas completado el 45%</p>
+								</div>
+							</div>
+							<div class="bloquedado">
+								<h2>Final Test <span>Bloqueado</span></h2>
+								<p> alcanza el 70% de tu progreso en la unidad y desbloquea </p>
+							</div>
+							<div class="clear-fix"></div>
+						</div>
+						<a class="continue" href="#">Continuar</a>
+						<div class="box-content">
+							<div class="label-level">
+								<p>
+									<a href="#">Actividad</a>
+								</p>
+							</div>
+							<h2>último actividad</h2>
+							<div class="content">
+								<h3>¡Sigue observando y aprendiendo!</h3>
+								<p>Sitio recomendado para mejorar el vocabulario del inglésa través de juegos y ejercicios básicos</p>
+								<p class="date">26/08/2014</p>
+								<div class="socials">
+									<ul>
+										<li>
+											<a onclick="window.open('https://www.facebook.com/dialog/feed?app_id=123050457758183&link=http%3A%2F%2Finglesen20minutos.com%2F&name=TMake, termino correctamente el ejercicio&caption=%20&description=TMake, termino correctamente el ejercicio Repeat the Words de la Unidad 1!&redirect_uri=http%3A%2F%2Fwww.facebook.com%2F','ventanacompartir', 'toolbar=0, status=0, width=650, height=350');" href="javascript: void(0);">
+											<img alt="" src="images/f1.png">
+										</li>
+										<li>
+											<a onclick="window.open('http://twitter.com/?status=TMake, termino correctamente el ejercicio Repeat the Words de la Unidad 1! inglesen20minutos.com','ventanacompartir', 'toolbar=0, status=0, width=650, height=350');" href="javascript: void(0);">
+											<img alt="" src="images/t1.png">
+										</li>
+										<li>
+											<a onclick="window.open('https://plus.google.com/share?url=inglesen20minutos.com','ventanacompartir', 'toolbar=0, status=0, width=650, height=350');" href="javascript: void(0);">
+												<img alt="" src="images/g1.png">
+											</a>
+										</li>
+										<li>
+											<a onclick="window.open('http://www.linkedin.com/shareArticle?mini=true&url=http://ingles20min.com&title=TMake, termino correctamente el ejercicio Repeat the Words de la Unidad 1!&summary=%20','ventanacompartir', 'toolbar=0, status=0, width=650, height=350');" href="javascript: void(0);">
+											<img alt="" src="images/in1.png">
+										</li>
+									</ul>
+								</div><!--end socials-->
+							</div>
+						</div><!--end box content-->
+						<div class="box-content">
+							<div class="label-level">
+								<p>
+									<a href="#">recursos</a>
+								</p>
+							</div>
+							<h2>último recurso añadido</h2>
+							<div class="content">
+								<a href="#"><img class="feature-image" src="images/escri-thumbnail01.jpg" alt="" /></a>
+								<div class="information">
+									<h3><a href="#">Vocabulary Spelling City</a></h3>
+									<p><a href="http://vocabularyspellincity.com">vocabularyspellincity.com</a></p>
+									<p>Sitio recomendado para mejorar el vocabulario del inglésa través de juegos y ejercicios básicos</p>
+								</div>
+								<div class="clear-fix"></div>
+							</div>
+						</div><!--end box content-->
+						<div class="box-content">
+							<div class="label-level">
+								<p>
+									<a href="#">Tutorias</a>
+								</p>
+							</div>
+							<h2>programa una tutoria</h2>
+							<div class="content">
+								<p>Programa turnos y confirma asistencia en webinars</p>
+								<a href="#" class="continue ui-link">PROGRAMAR</a>
+							</div>
+						</div><!--end box content-->
+						<div class="box-content box-list">
+							<div class="label-level">
+								<p>
+									<a href="#">MENSAJES</a>
+								</p>
+							</div>
+							<h2>ÚLTIMOS MENSAJES RECIBIDO</h2>
+							<div class="content">
+								<h3><a href="">Has agendado una tutoria</a></h3>
+								<p>Loren ipsum dantae dolira monicar targus domnia se lua nexus domine...</p>
+								<p class="develop">De: <span>Admin ·</span> Fecha: 26/08/2014</p>
+							</div>
+							<div class="content">
+								<h3><a href="">Has agendado una tutoria</a></h3>
+								<p>Loren ipsum dantae dolira monicar targus domnia se lua nexus domine...</p>
+								<p class="develop">De: <span>Admin ·</span> Fecha: 26/08/2014</p>
+							</div>
+						</div><!--end box content-->
+					</div><!--end sub lelvel-->
+				</div><!--end inner content-->
+			</div>
+		</div>
+		<!--end home escritorio-->
+		
+		<!--begin progreso escritorio-->
+		<div id="progreso-escritorio" class="escritorio" data-role="page" data-title="Progreso Escritorio Page">
+			<div data-role="panel" id="menu" class="menu-container" data-display="push" data-position="left">
+				<div class="site-login">
+					<form action="POST">
+						<i class="fa fa-user"></i>
+						<input type="text" name="uname" placeholder="Usuario">
+						<input type="password" name="pwd" placeholder="Password">
+						<input type="submit" value="Conectar">
+						<p><a href="#">Olvidaste tu contra seña</a></p>
+					</form>
+				</div>
+				<ul>
+					<li><a href="#page-four"><i class="fa fa-minus"></i>inicio</a></li>
+					<li><a href="#"><i class="fa fa-minus"></i>inglés en 20 minutos</a></li>
+					<li><a href="#page-three"><i class="fa fa-minus"></i>contenido</a></li>
+					<li><a href="#page-two"><i class="fa fa-minus"></i>Preguntas Frecuentes</a></li>
+				</ul>
+				<p class="copyright">Copyright &copy; 2012 Panamerican Language Network. Ayuda · Preguntas Frecuentes · Contacto</p>
+			</div><!-- /panel -->
+			<div data-role="header" class="header">
+				<a id="btn-menu" class="ui-btn" href="#menu"><span></span></a>
+				<p class="header-logo">Inglésen<b>20minutos</b></p>
+				<div class="select-language" data-role="fieldcontain">
+					<select name="language" id="slt-language">
+						<option value="fra">FRA</option>
+						<option value="spa">SPA</option>
+						<option value="eng">INT</option>
+					</select>
+				</div>
+			</div>
+			<div class="ui-content" data-role="main">
+				<div class="inner-content">
+					<div class="header-content">
+						<h1>PROGRESO</h1>
+						<h2>Where are you? <span class="unit">Level 1 · Unit 3</span></h2>
+					</div><!--header content-->
+					<div class="sub-level">
+						<div class="line-percent">
+							<ul>
+								<li>0%</li>
+								<li>5%</li>
+								<li>10%</li>
+								<li>15%</li>
+								<li>20%</li>
+								<li>25%</li>
+								<li>30%</li>
+								<li>35%</li>
+								<li>40%</li>
+								<li class="block arrow-yellow-progress-45">45%</li>
+								<li>50%</li>
+								<li>55%</li>
+								<li>60%</li>
+								<li>65%</li>
+								<li class="block arrow-yellow-progress-70">70%</li>
+								<li>75%</li>
+								<li>80%</li>
+								<li>85%</li>
+								<li>90%</li>
+								<li>95%</li>
+								<li>100%</li>
+							</ul>
+							<div class="line">
+								<img class="arrow-yellow arrow-yellow-progress-45" alt="" src="images/arrow-yellow.png">
+								<div class="bg-green bg-green-progress-45"></div>
+								<img class="arrow-yellow arrow-yellow-progress-70" alt="" src="images/arrow-red.png">
+							</div>
+							<div class="progressbar-user-box">
+								<div class="user-info">
+									<p>Hasta el momento llevas completado el 45%</p>
+								</div>
+							</div>
+							<div class="bloquedado">
+								<h2>Final Test <span>Bloqueado</span></h2>
+								<p> alcanza el 70% de tu progreso en la unidad y desbloquea </p>
+							</div>
+							<div class="clear-fix"></div>
+						</div>
+						<a class="continue" href="#">Continuar</a>
+						<div class="box-progreso">
+							<h2>Arbol de progreso</h2>
+							<ul class="list-feature">
+								<li class="box-green"><a href="#"><img src="images/icon-check.png" alt="" />Ejercicio Correcto</a></li>
+								<li class="box-red"><a href="#"><img src="images/icon-no.png" alt="" />Ejercicio Incorrecto</a></li>
+								<li class="box-yellow"><a href="#"><img src="images/icon-flag.png" alt="" />Ejercicio Pendiente</a></li>
+								<li class="box-gray"><a href="#"><img src="images/icon-eye.png" alt="" />Ejercicio No Visto</a></li>
+							</ul>
+							<div class="clear-fix"></div>
+						</div><!--end box progreso-->
+						<div class="box-progreso">
+							<h4 class="box-pink">Warning UP</h4>
+							<ul class="list-tool">
+								<li class="box-green"><a href="#"><span>Vídeo</span> <small><img src="images/icon-play.png" alt="" /></small></a><b></b></li>
+								<li class="box-yellow"><a href="#"><span>Match words to pictures</span> <small><img src="images/icon-pen.png" alt="" /></small></a><b></b></li>
+								<li class="box-green"><a href="#"><span>Pair pictures and words</span> <small><img src="images/icon-pen.png" alt="" /></small></a><b></b></li>
+							</ul>
+							<div class="clear-fix"></div>
+						</div><!--end box progreso-->
+						<div class="box-progreso">
+							<h4 class="box-pink">Watch &amp; Learn</h4>
+							<ul class="list-tool">
+								<li class="box-pink"><a href="#">Let’s Watch 1</a><b></b></li>
+								<li class="box-pink"><a href="#">Let’s Talk 1</a><b></b></li>
+								<li class="box-pink"><a href="#">Grammar Files</a><b></b></li>
+								<li class="box-green"><a href="#"><span>Vídeo</span> <small><img src="images/icon-play.png" alt="" /></small></a><b></b></li>
+								<li class="box-yellow"><a href="#"><span>Match words to pictures</span> <small><img src="images/icon-pen.png" alt="" /></small></a><b></b></li>
+								<li class="box-green"><a href="#"><span>Pair pictures and words</span> <small><img src="images/icon-pen.png" alt="" /></small></a><b></b></li>
+							</ul>
+							<div class="clear-fix"></div>
+							<ul class="list-tool">
+								<li class="box-pink"><a href="#">Let’s Watch 1</a></li>
+								<li class="box-pink"><a href="#">Let’s Talk 1</a></li>
+								<li class="box-pink"><a href="#">Grammar Files</a></li>
+								<li class="box-green"><a href="#"><span>Vídeo</span> <small><img src="images/icon-play.png" alt="" /></small></a><b></b></li>
+								<li class="box-red"><a href="#"><span>Match words to pictures</span> <small><img src="images/icon-pen.png" alt="" /></small></a><b></b></li>
+								<li class="box-green"><a href="#"><span>Pair pictures and words</span> <small><img src="images/icon-pen.png" alt="" /></small></a><b></b></li>
+							</ul>
+							<div class="clear-fix"></div>
+						</div><!--end box progreso-->
+					</div><!--end sub lelvel-->
+				</div><!--end inner content-->
+			</div>
+		</div>
+		<!--end progreso escritorio-->
+		
+		<!--begin actividad escritorio-->
+		<div id="actividad-escritorio" class="escritorio escritorio-trans" data-role="page" data-title="Actividad Escritorio Page">
+			<div data-role="panel" id="menu" class="menu-container" data-display="push" data-position="left">
+				<div class="site-login">
+					<form action="POST">
+						<i class="fa fa-user"></i>
+						<input type="text" name="uname" placeholder="Usuario">
+						<input type="password" name="pwd" placeholder="Password">
+						<input type="submit" value="Conectar">
+						<p><a href="#">Olvidaste tu contra seña</a></p>
+					</form>
+				</div>
+				<ul>
+					<li><a href="#page-four"><i class="fa fa-minus"></i>inicio</a></li>
+					<li><a href="#"><i class="fa fa-minus"></i>inglés en 20 minutos</a></li>
+					<li><a href="#page-three"><i class="fa fa-minus"></i>contenido</a></li>
+					<li><a href="#page-two"><i class="fa fa-minus"></i>Preguntas Frecuentes</a></li>
+				</ul>
+				<p class="copyright">Copyright &copy; 2012 Panamerican Language Network. Ayuda · Preguntas Frecuentes · Contacto</p>
+			</div><!-- /panel -->
+			<div data-role="header" class="header">
+				<a id="btn-menu" class="ui-btn" href="#menu"><span></span></a>
+				<p class="header-logo">Inglésen<b>20minutos</b></p>
+				<div class="select-language" data-role="fieldcontain">
+					<select name="language" id="slt-language">
+						<option value="fra">FRA</option>
+						<option value="spa">SPA</option>
+						<option value="eng">INT</option>
+					</select>
+				</div>
+			</div>
+			<div class="ui-content" data-role="main">
+				<div class="inner-content">
+					<div class="header-content">
+						<h1>Actividad</h1>
+					</div><!--header content-->
+					<div class="sub-level">
+						<div class="box-list">
+							<div class="content">
+								<p class="date-title">26/08/2014</p>
+								<h3><a href="#">¡Sigue observando y aprendiendo!</a></h3>
+								<p>¡Has completado la sección<br />Let's Talk 1 de la U3!</p>
+								<div class="socials">
+									<ul>
+										<li>
+											<a onclick="window.open('https://www.facebook.com/dialog/feed?app_id=123050457758183&link=http%3A%2F%2Finglesen20minutos.com%2F&name=TMake, termino correctamente el ejercicio&caption=%20&description=TMake, termino correctamente el ejercicio Repeat the Words de la Unidad 1!&redirect_uri=http%3A%2F%2Fwww.facebook.com%2F','ventanacompartir', 'toolbar=0, status=0, width=650, height=350');" href="javascript: void(0);">
+											<img alt="" src="images/f1.png">
+										</li>
+										<li>
+											<a onclick="window.open('http://twitter.com/?status=TMake, termino correctamente el ejercicio Repeat the Words de la Unidad 1! inglesen20minutos.com','ventanacompartir', 'toolbar=0, status=0, width=650, height=350');" href="javascript: void(0);">
+											<img alt="" src="images/t1.png">
+										</li>
+										<li>
+											<a onclick="window.open('https://plus.google.com/share?url=inglesen20minutos.com','ventanacompartir', 'toolbar=0, status=0, width=650, height=350');" href="javascript: void(0);">
+												<img alt="" src="images/g1.png">
+											</a>
+										</li>
+										<li>
+											<a onclick="window.open('http://www.linkedin.com/shareArticle?mini=true&url=http://ingles20min.com&title=TMake, termino correctamente el ejercicio Repeat the Words de la Unidad 1!&summary=%20','ventanacompartir', 'toolbar=0, status=0, width=650, height=350');" href="javascript: void(0);">
+											<img alt="" src="images/in1.png">
+										</li>
+									</ul>
+								</div><!--end socials-->
+							</div>
+						</div><!--end box list-->
+						<div class="box-list">
+							<div class="content">
+								<p class="date-title">26/08/2014</p>
+								<h3><a href="#">¡Sigue observando y aprendiendo!</a></h3>
+								<p>¡Has completado la sección<br />Let's Talk 1 de la U3!</p>
+								<div class="socials">
+									<ul>
+										<li>
+											<a onclick="window.open('https://www.facebook.com/dialog/feed?app_id=123050457758183&link=http%3A%2F%2Finglesen20minutos.com%2F&name=TMake, termino correctamente el ejercicio&caption=%20&description=TMake, termino correctamente el ejercicio Repeat the Words de la Unidad 1!&redirect_uri=http%3A%2F%2Fwww.facebook.com%2F','ventanacompartir', 'toolbar=0, status=0, width=650, height=350');" href="javascript: void(0);">
+											<img alt="" src="images/f1.png">
+										</li>
+										<li>
+											<a onclick="window.open('http://twitter.com/?status=TMake, termino correctamente el ejercicio Repeat the Words de la Unidad 1! inglesen20minutos.com','ventanacompartir', 'toolbar=0, status=0, width=650, height=350');" href="javascript: void(0);">
+											<img alt="" src="images/t1.png">
+										</li>
+										<li>
+											<a onclick="window.open('https://plus.google.com/share?url=inglesen20minutos.com','ventanacompartir', 'toolbar=0, status=0, width=650, height=350');" href="javascript: void(0);">
+												<img alt="" src="images/g1.png">
+											</a>
+										</li>
+										<li>
+											<a onclick="window.open('http://www.linkedin.com/shareArticle?mini=true&url=http://ingles20min.com&title=TMake, termino correctamente el ejercicio Repeat the Words de la Unidad 1!&summary=%20','ventanacompartir', 'toolbar=0, status=0, width=650, height=350');" href="javascript: void(0);">
+											<img alt="" src="images/in1.png">
+										</li>
+									</ul>
+								</div><!--end socials-->
+							</div>
+						</div><!--end box list-->
+						<div class="box-list">
+							<div class="content">
+								<p class="date-title">26/08/2014</p>
+								<h3><a href="#">¡Sigue observando y aprendiendo!</a></h3>
+								<p>¡Has completado la sección<br />Let's Talk 1 de la U3!</p>
+								<div class="socials">
+									<ul>
+										<li>
+											<a onclick="window.open('https://www.facebook.com/dialog/feed?app_id=123050457758183&link=http%3A%2F%2Finglesen20minutos.com%2F&name=TMake, termino correctamente el ejercicio&caption=%20&description=TMake, termino correctamente el ejercicio Repeat the Words de la Unidad 1!&redirect_uri=http%3A%2F%2Fwww.facebook.com%2F','ventanacompartir', 'toolbar=0, status=0, width=650, height=350');" href="javascript: void(0);">
+											<img alt="" src="images/f1.png">
+										</li>
+										<li>
+											<a onclick="window.open('http://twitter.com/?status=TMake, termino correctamente el ejercicio Repeat the Words de la Unidad 1! inglesen20minutos.com','ventanacompartir', 'toolbar=0, status=0, width=650, height=350');" href="javascript: void(0);">
+											<img alt="" src="images/t1.png">
+										</li>
+										<li>
+											<a onclick="window.open('https://plus.google.com/share?url=inglesen20minutos.com','ventanacompartir', 'toolbar=0, status=0, width=650, height=350');" href="javascript: void(0);">
+												<img alt="" src="images/g1.png">
+											</a>
+										</li>
+										<li>
+											<a onclick="window.open('http://www.linkedin.com/shareArticle?mini=true&url=http://ingles20min.com&title=TMake, termino correctamente el ejercicio Repeat the Words de la Unidad 1!&summary=%20','ventanacompartir', 'toolbar=0, status=0, width=650, height=350');" href="javascript: void(0);">
+											<img alt="" src="images/in1.png">
+										</li>
+									</ul>
+								</div><!--end socials-->
+							</div>
+						</div><!--end box list-->
+						<div class="box-list">
+							<div class="content">
+								<p class="date-title">26/08/2014</p>
+								<h3><a href="#">¡Sigue observando y aprendiendo!</a></h3>
+								<p>¡Has completado la sección<br />Let's Talk 1 de la U3!</p>
+								<div class="socials">
+									<ul>
+										<li>
+											<a onclick="window.open('https://www.facebook.com/dialog/feed?app_id=123050457758183&link=http%3A%2F%2Finglesen20minutos.com%2F&name=TMake, termino correctamente el ejercicio&caption=%20&description=TMake, termino correctamente el ejercicio Repeat the Words de la Unidad 1!&redirect_uri=http%3A%2F%2Fwww.facebook.com%2F','ventanacompartir', 'toolbar=0, status=0, width=650, height=350');" href="javascript: void(0);">
+											<img alt="" src="images/f1.png">
+										</li>
+										<li>
+											<a onclick="window.open('http://twitter.com/?status=TMake, termino correctamente el ejercicio Repeat the Words de la Unidad 1! inglesen20minutos.com','ventanacompartir', 'toolbar=0, status=0, width=650, height=350');" href="javascript: void(0);">
+											<img alt="" src="images/t1.png">
+										</li>
+										<li>
+											<a onclick="window.open('https://plus.google.com/share?url=inglesen20minutos.com','ventanacompartir', 'toolbar=0, status=0, width=650, height=350');" href="javascript: void(0);">
+												<img alt="" src="images/g1.png">
+											</a>
+										</li>
+										<li>
+											<a onclick="window.open('http://www.linkedin.com/shareArticle?mini=true&url=http://ingles20min.com&title=TMake, termino correctamente el ejercicio Repeat the Words de la Unidad 1!&summary=%20','ventanacompartir', 'toolbar=0, status=0, width=650, height=350');" href="javascript: void(0);">
+											<img alt="" src="images/in1.png">
+										</li>
+									</ul>
+								</div><!--end socials-->
+							</div>
+						</div><!--end box list-->
+						<div class="box-list">
+							<div class="content">
+								<p class="date-title">26/08/2014</p>
+								<h3><a href="#">¡Sigue observando y aprendiendo!</a></h3>
+								<p>¡Has completado la sección<br />Let's Talk 1 de la U3!</p>
+								<div class="socials">
+									<ul>
+										<li>
+											<a onclick="window.open('https://www.facebook.com/dialog/feed?app_id=123050457758183&link=http%3A%2F%2Finglesen20minutos.com%2F&name=TMake, termino correctamente el ejercicio&caption=%20&description=TMake, termino correctamente el ejercicio Repeat the Words de la Unidad 1!&redirect_uri=http%3A%2F%2Fwww.facebook.com%2F','ventanacompartir', 'toolbar=0, status=0, width=650, height=350');" href="javascript: void(0);">
+											<img alt="" src="images/f1.png">
+										</li>
+										<li>
+											<a onclick="window.open('http://twitter.com/?status=TMake, termino correctamente el ejercicio Repeat the Words de la Unidad 1! inglesen20minutos.com','ventanacompartir', 'toolbar=0, status=0, width=650, height=350');" href="javascript: void(0);">
+											<img alt="" src="images/t1.png">
+										</li>
+										<li>
+											<a onclick="window.open('https://plus.google.com/share?url=inglesen20minutos.com','ventanacompartir', 'toolbar=0, status=0, width=650, height=350');" href="javascript: void(0);">
+												<img alt="" src="images/g1.png">
+											</a>
+										</li>
+										<li>
+											<a onclick="window.open('http://www.linkedin.com/shareArticle?mini=true&url=http://ingles20min.com&title=TMake, termino correctamente el ejercicio Repeat the Words de la Unidad 1!&summary=%20','ventanacompartir', 'toolbar=0, status=0, width=650, height=350');" href="javascript: void(0);">
+											<img alt="" src="images/in1.png">
+										</li>
+									</ul>
+								</div><!--end socials-->
+							</div>
+						</div><!--end box list-->
+					</div><!--end sub lelvel-->
+				</div><!--end inner content-->
+			</div>
+		</div>
+		<!--end actividad escritorio-->
+		
+		<!--begin mensajes escritorio-->
+		<div id="mensajes-escritorio" class="escritorio escritorio-trans mensajes-escritorio-template" data-role="page" data-title="Mensajes Escritorio Page">
+			<div data-role="panel" id="menu" class="menu-container" data-display="push" data-position="left">
+				<div class="site-login">
+					<form action="POST">
+						<i class="fa fa-user"></i>
+						<input type="text" name="uname" placeholder="Usuario">
+						<input type="password" name="pwd" placeholder="Password">
+						<input type="submit" value="Conectar">
+						<p><a href="#">Olvidaste tu contra seña</a></p>
+					</form>
+				</div>
+				<ul>
+					<li><a href="#page-four"><i class="fa fa-minus"></i>inicio</a></li>
+					<li><a href="#"><i class="fa fa-minus"></i>inglés en 20 minutos</a></li>
+					<li><a href="#page-three"><i class="fa fa-minus"></i>contenido</a></li>
+					<li><a href="#page-two"><i class="fa fa-minus"></i>Preguntas Frecuentes</a></li>
+				</ul>
+				<p class="copyright">Copyright &copy; 2012 Panamerican Language Network. Ayuda · Preguntas Frecuentes · Contacto</p>
+			</div><!-- /panel -->
+			<div data-role="header" class="header">
+				<a id="btn-menu" class="ui-btn" href="#menu"><span></span></a>
+				<p class="header-logo">Inglésen<b>20minutos</b></p>
+				<div class="select-language" data-role="fieldcontain">
+					<select name="language" id="slt-language">
+						<option value="fra">FRA</option>
+						<option value="spa">SPA</option>
+						<option value="eng">INT</option>
+					</select>
+				</div>
+			</div>
+			<div class="ui-content" data-role="main">
+				<div class="inner-content">
+					<div class="header-content">
+						<h1>Mensajes</h1>
+						<div class="navi-mensajes">
+							<a href="#" class="prev"><img src="images/prev-mensajes.png" alt="" /></a>
+							<span class="line"></span>
+							<a href="#" class="add"><img src="images/add-mensajes.png" alt="" /></a>
+						</div>
+						<form id="navigation-form" action="">
+							<select name="select_navi">
+								<option value="1">Bandeja de Entrada</option>
+								<option value="2">Bandeja de Salida</option>
+								<option value="3">Proyecto de Noticias</option>
+							</select>
+						</form>
+					</div><!--header content-->
+					<div class="sub-level">
+						<div class="box-content box-list">
+							<div class="content">
+								<h3><a href="#mensajes-escritorio-single">Has agendado una tutoria</a></h3>
+								<p>Loren ipsum dantae dolira monicar targus domnia se lua nexus domine...</p>
+								<p class="develop">De: <span>Admin ·</span> Fecha: 26/08/2014</p>
+							</div>
+							<div class="content">
+								<h3><a href="#mensajes-escritorio-single">Has agendado una tutoria</a></h3>
+								<p>Loren ipsum dantae dolira monicar targus domnia se lua nexus domine...</p>
+								<p class="develop">De: <span>Admin ·</span> Fecha: 26/08/2014</p>
+							</div>
+							<div class="content">
+								<h3><a href="#mensajes-escritorio-single">Has agendado una tutoria</a></h3>
+								<p>Loren ipsum dantae dolira monicar targus domnia se lua nexus domine...</p>
+								<p class="develop">De: <span>Admin ·</span> Fecha: 26/08/2014</p>
+							</div>
+						</div><!--end box content-->
+					</div><!--end sub lelvel-->
+				</div><!--end inner content-->
+			</div>
+		</div>
+		<!--end mensajes escritorio-->
+		
+		<!--begin mensajes escritorio single-->
+		<div id="mensajes-escritorio-single" class="escritorio escritorio-trans mensajes-escritorio-template" data-role="page" data-title="Mensajes Escritorio Single">
+			<div data-role="panel" id="menu" class="menu-container" data-display="push" data-position="left">
+				<div class="site-login">
+					<form action="POST">
+						<i class="fa fa-user"></i>
+						<input type="text" name="uname" placeholder="Usuario">
+						<input type="password" name="pwd" placeholder="Password">
+						<input type="submit" value="Conectar">
+						<p><a href="#">Olvidaste tu contra seña</a></p>
+					</form>
+				</div>
+				<ul>
+					<li><a href="#page-four"><i class="fa fa-minus"></i>inicio</a></li>
+					<li><a href="#"><i class="fa fa-minus"></i>inglés en 20 minutos</a></li>
+					<li><a href="#page-three"><i class="fa fa-minus"></i>contenido</a></li>
+					<li><a href="#page-two"><i class="fa fa-minus"></i>Preguntas Frecuentes</a></li>
+				</ul>
+				<p class="copyright">Copyright &copy; 2012 Panamerican Language Network. Ayuda · Preguntas Frecuentes · Contacto</p>
+			</div><!-- /panel -->
+			<div data-role="header" class="header">
+				<a id="btn-menu" class="ui-btn" href="#menu"><span></span></a>
+				<p class="header-logo">Inglésen<b>20minutos</b></p>
+				<div class="select-language" data-role="fieldcontain">
+					<select name="language" id="slt-language">
+						<option value="fra">FRA</option>
+						<option value="spa">SPA</option>
+						<option value="eng">INT</option>
+					</select>
+				</div>
+			</div>
+			<div class="ui-content" data-role="main">
+				<div class="inner-content">
+					<div class="header-content">
+						<h1>Mensajes</h1>
+						<div class="navi-mensajes">
+							<a href="#" class="prev"><img src="images/prev-mensajes.png" alt="" /></a>
+							<span class="line"></span>
+							<a href="#" class="add"><img src="images/add-mensajes.png" alt="" /></a>
+						</div>
+						<form id="navigation-form" action="">
+							<select name="select_navi">
+								<option value="1">Bandeja de Entrada</option>
+								<option value="2">Bandeja de Salida</option>
+								<option value="3">Proyecto de Noticias</option>
+							</select>
+						</form>
+					</div><!--header content-->
+					<div class="sub-level">
+						<div class="box-content box-list">
+							<div class="content">
+								<h3>Has agendado una tutoria</h3>
+								<p class="develop">De: <span>Admin ·</span> Fecha: 26/08/2014</p>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc in velit venenatis nunc auctor tristique a eu dui. Donec iaculis nisi consectetur massa rutrum dictum et nec mauris. In at quam quis nulla pharetra ultrices sit amet sed velit. Vestibulum sed mollis velit, a cursus erat. Cras ultricies gravida accumsan.</p>
+							</div>
+						</div><!--end box content-->
+						<div class="function-mensajes">
+							<a href="#mensajes-escritorio-reply" class="reply">Responder</a>
+							<a href="#mensajes-escritorio" class="leave">Eliminar</a>
+						</div><!--end function-->
+					</div><!--end sub lelvel-->
+				</div><!--end inner content-->
+			</div>
+		</div>
+		<!--end mensajes escritorio single-->
+		
+		<!--begin mensajes escritorio reply-->
+		<div id="mensajes-escritorio-reply" class="escritorio escritorio-trans mensajes-escritorio-template" data-role="page" data-title="Mensajes Escritorio Single">
+			<div data-role="panel" id="menu" class="menu-container" data-display="push" data-position="left">
+				<div class="site-login">
+					<form action="POST">
+						<i class="fa fa-user"></i>
+						<input type="text" name="uname" placeholder="Usuario">
+						<input type="password" name="pwd" placeholder="Password">
+						<input type="submit" value="Conectar">
+						<p><a href="#">Olvidaste tu contra seña</a></p>
+					</form>
+				</div>
+				<ul>
+					<li><a href="#page-four"><i class="fa fa-minus"></i>inicio</a></li>
+					<li><a href="#"><i class="fa fa-minus"></i>inglés en 20 minutos</a></li>
+					<li><a href="#page-three"><i class="fa fa-minus"></i>contenido</a></li>
+					<li><a href="#page-two"><i class="fa fa-minus"></i>Preguntas Frecuentes</a></li>
+				</ul>
+				<p class="copyright">Copyright &copy; 2012 Panamerican Language Network. Ayuda · Preguntas Frecuentes · Contacto</p>
+			</div><!-- /panel -->
+			<div data-role="header" class="header">
+				<a id="btn-menu" class="ui-btn" href="#menu"><span></span></a>
+				<p class="header-logo">Inglésen<b>20minutos</b></p>
+				<div class="select-language" data-role="fieldcontain">
+					<select name="language" id="slt-language">
+						<option value="fra">FRA</option>
+						<option value="spa">SPA</option>
+						<option value="eng">INT</option>
+					</select>
+				</div>
+			</div>
+			<div class="ui-content" data-role="main">
+				<div class="inner-content">
+					<div class="header-content">
+						<h1>Mensajes</h1>
+						<div class="navi-mensajes">
+							<a href="#" class="prev"><img src="images/prev-mensajes.png" alt="" /></a>
+							<span class="line"></span>
+							<a href="#" class="add"><img src="images/add-mensajes.png" alt="" /></a>
+						</div>
+						<form id="reply-form" action="">
+							<input type="text" name="send_reply" id="send-reply" placeholder="Enviar a:" />
+							<input type="text" name="subject_reply" id="subject-reply" placeholder="Asunto" />
+							<textarea name="message_reply" id="message-reply" cols="30" rows="10" placeholder="Mensaje"></textarea>
+							<input type="submit" id="submit-reply" value="Enviar" />
+						</form>	
+					</div><!--header content-->
+				</div><!--end inner content-->
+			</div>
+		</div>
+		<!--end mensajes escritorio reply-->
+		
+		<!--begin recursos escritorio-->
+		<div id="recursos-escritorio" class="escritorio escritorio-trans" data-role="page" data-title="Recursos Escritorio Single">
+			<div data-role="panel" id="menu" class="menu-container" data-display="push" data-position="left">
+				<div class="site-login">
+					<form action="POST">
+						<i class="fa fa-user"></i>
+						<input type="text" name="uname" placeholder="Usuario">
+						<input type="password" name="pwd" placeholder="Password">
+						<input type="submit" value="Conectar">
+						<p><a href="#">Olvidaste tu contra seña</a></p>
+					</form>
+				</div>
+				<ul>
+					<li><a href="#page-four"><i class="fa fa-minus"></i>inicio</a></li>
+					<li><a href="#"><i class="fa fa-minus"></i>inglés en 20 minutos</a></li>
+					<li><a href="#page-three"><i class="fa fa-minus"></i>contenido</a></li>
+					<li><a href="#page-two"><i class="fa fa-minus"></i>Preguntas Frecuentes</a></li>
+				</ul>
+				<p class="copyright">Copyright &copy; 2012 Panamerican Language Network. Ayuda · Preguntas Frecuentes · Contacto</p>
+			</div><!-- /panel -->
+			<div data-role="header" class="header">
+				<a id="btn-menu" class="ui-btn" href="#menu"><span></span></a>
+				<p class="header-logo">Inglésen<b>20minutos</b></p>
+				<div class="select-language" data-role="fieldcontain">
+					<select name="language" id="slt-language">
+						<option value="fra">FRA</option>
+						<option value="spa">SPA</option>
+						<option value="eng">INT</option>
+					</select>
+				</div>
+			</div>
+			<div class="ui-content" data-role="main">
+				<div class="inner-content">
+					<div class="header-content">
+						<h1>Recursos</h1>
+					</div><!--header content-->
+					<div class="sub-level">
+						<div data-role="tabs" class="list-tab">
+							<ul data-role="listview" data-inset="true" class="tablist-left">
+								<li><a href="#one" data-ajax="false">Level 1</a></li>
+								<li><a href="#two" data-ajax="false">Level 2</a></li>
+								<li><a href="#three" data-ajax="false">Level 3</a></li>
+								<li><a href="#four" data-ajax="false">Level 4</a></li>
+							</ul>
+							<div id="one" class="box-content">
+								<div class="content">
+									<a href="#"><img class="feature-image" src="images/escri-thumbnail01.jpg" alt="" /></a>
+									<div class="information">
+										<h3><a href="#">Vocabulary Spelling City</a></h3>
+										<p><a href="http://vocabularyspellincity.com">vocabularyspellincity.com</a></p>
+										<p>Sitio recomendado para mejorar el vocabulario del inglésa través de juegos y ejercicios básicos</p>
+									</div>
+									<div class="clear-fix"></div>
+								</div>
+								<div class="content">
+									<a href="#"><img class="feature-image" src="images/escri-thumbnail01.jpg" alt="" /></a>
+									<div class="information">
+										<h3><a href="#">Vocabulary Spelling City</a></h3>
+										<p><a href="http://vocabularyspellincity.com">vocabularyspellincity.com</a></p>
+										<p>Sitio recomendado para mejorar el vocabulario del inglésa través de juegos y ejercicios básicos</p>
+									</div>
+									<div class="clear-fix"></div>
+								</div>
+								<div class="content">
+									<a href="#"><img class="feature-image" src="images/escri-thumbnail01.jpg" alt="" /></a>
+									<div class="information">
+										<h3><a href="#">Vocabulary Spelling City</a></h3>
+										<p><a href="http://vocabularyspellincity.com">vocabularyspellincity.com</a></p>
+										<p>Sitio recomendado para mejorar el vocabulario del inglésa través de juegos y ejercicios básicos</p>
+									</div>
+									<div class="clear-fix"></div>
+								</div>
+								<div class="content">
+									<a href="#"><img class="feature-image" src="images/escri-thumbnail01.jpg" alt="" /></a>
+									<div class="information">
+										<h3><a href="#">Vocabulary Spelling City</a></h3>
+										<p><a href="http://vocabularyspellincity.com">vocabularyspellincity.com</a></p>
+										<p>Sitio recomendado para mejorar el vocabulario del inglésa través de juegos y ejercicios básicos</p>
+									</div>
+									<div class="clear-fix"></div>
+								</div>
+							</div><!--end box content-->
+							<div id="two" class="box-content">
+								<div class="content">
+									<a href="#"><img class="feature-image" src="images/escri-thumbnail01.jpg" alt="" /></a>
+									<div class="information">
+										<h3><a href="#">Vocabulary Spelling City</a></h3>
+										<p><a href="http://vocabularyspellincity.com">vocabularyspellincity.com</a></p>
+										<p>Sitio recomendado para mejorar el vocabulario del inglésa través de juegos y ejercicios básicos</p>
+									</div>
+									<div class="clear-fix"></div>
+								</div>
+								<div class="content">
+									<a href="#"><img class="feature-image" src="images/escri-thumbnail01.jpg" alt="" /></a>
+									<div class="information">
+										<h3><a href="#">Vocabulary Spelling City</a></h3>
+										<p><a href="http://vocabularyspellincity.com">vocabularyspellincity.com</a></p>
+										<p>Sitio recomendado para mejorar el vocabulario del inglésa través de juegos y ejercicios básicos</p>
+									</div>
+									<div class="clear-fix"></div>
+								</div>
+								<div class="content">
+									<a href="#"><img class="feature-image" src="images/escri-thumbnail01.jpg" alt="" /></a>
+									<div class="information">
+										<h3><a href="#">Vocabulary Spelling City</a></h3>
+										<p><a href="http://vocabularyspellincity.com">vocabularyspellincity.com</a></p>
+										<p>Sitio recomendado para mejorar el vocabulario del inglésa través de juegos y ejercicios básicos</p>
+									</div>
+									<div class="clear-fix"></div>
+								</div>
+								<div class="content">
+									<a href="#"><img class="feature-image" src="images/escri-thumbnail01.jpg" alt="" /></a>
+									<div class="information">
+										<h3><a href="#">Vocabulary Spelling City</a></h3>
+										<p><a href="http://vocabularyspellincity.com">vocabularyspellincity.com</a></p>
+										<p>Sitio recomendado para mejorar el vocabulario del inglésa través de juegos y ejercicios básicos</p>
+									</div>
+									<div class="clear-fix"></div>
+								</div>
+							</div><!--end box content-->
+							<div id="three" class="box-content">
+								<div class="content">
+									<a href="#"><img class="feature-image" src="images/escri-thumbnail01.jpg" alt="" /></a>
+									<div class="information">
+										<h3><a href="#">Vocabulary Spelling City</a></h3>
+										<p><a href="http://vocabularyspellincity.com">vocabularyspellincity.com</a></p>
+										<p>Sitio recomendado para mejorar el vocabulario del inglésa través de juegos y ejercicios básicos</p>
+									</div>
+									<div class="clear-fix"></div>
+								</div>
+								<div class="content">
+									<a href="#"><img class="feature-image" src="images/escri-thumbnail01.jpg" alt="" /></a>
+									<div class="information">
+										<h3><a href="#">Vocabulary Spelling City</a></h3>
+										<p><a href="http://vocabularyspellincity.com">vocabularyspellincity.com</a></p>
+										<p>Sitio recomendado para mejorar el vocabulario del inglésa través de juegos y ejercicios básicos</p>
+									</div>
+									<div class="clear-fix"></div>
+								</div>
+							</div><!--end box content-->
+							<div id="four" class="box-content">
+								<div class="content">
+									<a href="#"><img class="feature-image" src="images/escri-thumbnail01.jpg" alt="" /></a>
+									<div class="information">
+										<h3><a href="#">Vocabulary Spelling City</a></h3>
+										<p><a href="http://vocabularyspellincity.com">vocabularyspellincity.com</a></p>
+										<p>Sitio recomendado para mejorar el vocabulario del inglésa través de juegos y ejercicios básicos</p>
+									</div>
+									<div class="clear-fix"></div>
+								</div>
+								<div class="content">
+									<a href="#"><img class="feature-image" src="images/escri-thumbnail01.jpg" alt="" /></a>
+									<div class="information">
+										<h3><a href="#">Vocabulary Spelling City</a></h3>
+										<p><a href="http://vocabularyspellincity.com">vocabularyspellincity.com</a></p>
+										<p>Sitio recomendado para mejorar el vocabulario del inglésa través de juegos y ejercicios básicos</p>
+									</div>
+									<div class="clear-fix"></div>
+								</div>
+								<div class="content">
+									<a href="#"><img class="feature-image" src="images/escri-thumbnail01.jpg" alt="" /></a>
+									<div class="information">
+										<h3><a href="#">Vocabulary Spelling City</a></h3>
+										<p><a href="http://vocabularyspellincity.com">vocabularyspellincity.com</a></p>
+										<p>Sitio recomendado para mejorar el vocabulario del inglésa través de juegos y ejercicios básicos</p>
+									</div>
+									<div class="clear-fix"></div>
+								</div>
+							</div><!--end box content-->
+						</div><!--end section tab-->
+					</div><!--end sub lelvel-->
+				</div><!--end inner content-->
+			</div>
+		</div>
+		<!--end recursos escritorio-->
+
+		<!--begin l1 u1-->
+		<div id="level1-u1" class="escritorio escritorio-trans" data-role="page" data-title="Level L1 . U1">
+			<div data-role="panel" id="menu" class="menu-container" data-display="push" data-position="left">
+				<div class="site-login">
+					<form action="POST">
+						<i class="fa fa-user"></i>
+						<input type="text" name="uname" placeholder="Usuario">
+						<input type="password" name="pwd" placeholder="Password">
+						<input type="submit" value="Conectar">
+						<p><a href="#">Olvidaste tu contra seña</a></p>
+					</form>
+				</div>
+				<ul>
+					<li><a href="#page-four"><i class="fa fa-minus"></i>inicio</a></li>
+					<li><a href="#"><i class="fa fa-minus"></i>inglés en 20 minutos</a></li>
+					<li><a href="#page-three"><i class="fa fa-minus"></i>contenido</a></li>
+					<li><a href="#page-two"><i class="fa fa-minus"></i>Preguntas Frecuentes</a></li>
+				</ul>
+				<p class="copyright">Copyright &copy; 2012 Panamerican Language Network. Ayuda · Preguntas Frecuentes · Contacto</p>
+			</div><!-- /panel -->
+			<div data-role="header" class="header">
+				<a id="btn-menu" class="ui-btn" href="#menu"><span></span></a>
+				<p class="header-logo">Inglésen<b>20minutos</b> · L1 · U1</p>
+			</div>
+			<div class="ui-content" data-role="main">
+				<div class="inner-content">
+					<h1 class="number-page">U4</h1>
+					<div class="header-content">
+						
+					</div><!--header content-->
+					<div class="content-content">
+						<ul class="bxslider slider01">
+							<li>
+								<h1>Getting<br/>Acquainted</h1>
+								<p>“Hoy es el primer día de Lesley en la agencia de viajes Travel Tours y está conociendo a sus compañeros de trabajo”</p>
+								<img src="images/bgr-lv1.png" alt="" class="thumb">
+							</li>
+							<li>
+								<h1>Getting<br/>Acquainted</h1>
+								<ul>
+									<li>
+										<span>Unit Objectives</span>
+										<ul>
+											<li>Los números del 1 al 30</li>
+											<li>Profesiones y oficios diferentes maneras de saludar y presentarte a ti mismo o presentar a otras personas, preguntar sobre la edad y estado civil.</li>
+										</ul>
+									</li>
+									<li><a href="#"><i class="fa fa-play-circle"></i> Play Scene</a></li>
+									<li><a href="#"><i class="fa fa-lock"></i> Final Quiz</a></li>
+								</ul>
+							</li>
+						</ul>
+						<div class="list-btn-link">
+							<ul>
+								<li><a href="#">Warning<br/>UP</a></li>
+								<li><a href="#">Watch &amp;<br/>Learn</a></li>
+								<li><a href="#">Pronunciation<br/>Tips</a></li>
+								<li><a href="#">Time to<br/>Talk</a></li>
+								<li><a href="#">Time to<br/>Read</a></li>
+								<li><a href="#">Time to<br/>Write</a></li>
+							</ul>
+						</div>
+					</div>
+				</div><!--end inner content-->
+			</div>
+		</div>
+		<!--end l1 u1-->
+
+		<!--begin l1 u2-->
+		<div id="level1-u2" class="escritorio escritorio-trans" data-role="page" data-title="Level L1 . U2">
+			<div data-role="panel" id="menu" class="menu-container" data-display="push" data-position="left">
+				<div class="site-login">
+					<form action="POST">
+						<i class="fa fa-user"></i>
+						<input type="text" name="uname" placeholder="Usuario">
+						<input type="password" name="pwd" placeholder="Password">
+						<input type="submit" value="Conectar">
+						<p><a href="#">Olvidaste tu contra seña</a></p>
+					</form>
+				</div>
+				<ul>
+					<li><a href="#page-four"><i class="fa fa-minus"></i>inicio</a></li>
+					<li><a href="#"><i class="fa fa-minus"></i>inglés en 20 minutos</a></li>
+					<li><a href="#page-three"><i class="fa fa-minus"></i>contenido</a></li>
+					<li><a href="#page-two"><i class="fa fa-minus"></i>Preguntas Frecuentes</a></li>
+				</ul>
+				<p class="copyright">Copyright &copy; 2012 Panamerican Language Network. Ayuda · Preguntas Frecuentes · Contacto</p>
+			</div><!-- /panel -->
+			<div data-role="header" class="header">
+				<a id="btn-menu" class="ui-btn" href="#menu"><span></span></a>
+				<p class="header-logo">Inglésen<b>20minutos</b> · L1 · U2</p>
+			</div>
+			<div class="ui-content" data-role="main">
+				<div class="inner-content">
+					<div class="content-content content-page">
+						<h1 class="title">UNIT1 <span>exercice 1</span> <b>Jobs</b></h1>
+						<h6>En este ejercicio tendrás que:</h6>
+						<p>Arrastra las palabras que describen diferentes profesiones y oficios hasta la imagen que corresponde.</p>
+						<div class="btn-navigation">
+							<a href="#" class="nav-right"><img src="images/btn-next.png" alt=""></a>
+						</div>
+					</div>
+				</div><!--end inner content-->
+			</div>
+		</div>
+		<!--end l1 u2-->
+
+		<!--begin l1 u3-->
+		<div id="level1-u3" class="escritorio escritorio-trans" data-role="page" data-title="Level L1 . U3">
+			<div data-role="panel" id="menu" class="menu-container" data-display="push" data-position="left">
+				<div class="site-login">
+					<form action="POST">
+						<i class="fa fa-user"></i>
+						<input type="text" name="uname" placeholder="Usuario">
+						<input type="password" name="pwd" placeholder="Password">
+						<input type="submit" value="Conectar">
+						<p><a href="#">Olvidaste tu contra seña</a></p>
+					</form>
+				</div>
+				<ul>
+					<li><a href="#page-four"><i class="fa fa-minus"></i>inicio</a></li>
+					<li><a href="#"><i class="fa fa-minus"></i>inglés en 20 minutos</a></li>
+					<li><a href="#page-three"><i class="fa fa-minus"></i>contenido</a></li>
+					<li><a href="#page-two"><i class="fa fa-minus"></i>Preguntas Frecuentes</a></li>
+				</ul>
+				<p class="copyright">Copyright &copy; 2012 Panamerican Language Network. Ayuda · Preguntas Frecuentes · Contacto</p>
+			</div><!-- /panel -->
+			<div data-role="header" class="header">
+				<a id="btn-menu" class="ui-btn" href="#menu"><span></span></a>
+				<p class="header-logo">Inglésen<b>20minutos</b> · L1 · U3</p>
+			</div>
+			<div class="ui-content" data-role="main">
+				<div class="inner-content">
+					<div class="content-content content-page l1u1pt-e1">
+						<ul class="margin-list drop_e1">
+							<li>
+                                <span id="sentence32">This is Silical</span>
+                                <a id="sound32" href="#" class="thinking"></a>
+                                <script type="text/javascript">
+								    var span = $('#sentence32');
+								    var sentence = "";
+								    var lastPosition = 0;
+
+								    var letter = "i";
+								    if (letter.length > 1) {
+								        var block = '<b class="class0">i<span data-item="1" data-count="0" class="ui-droppable"></span></b>';
+								        sentence = sentence + (span.text().substring(lastPosition, 2) + block);
+								    } else {
+								        var block = '<b class="class0">i<span data-item="1" data-count="0" class="ui-droppable"></span></b>';
+								        sentence = sentence + (span.text().substring(lastPosition, 2) + block);
+								    }
+
+								    lastPosition = 2 + 1;
+
+								    var letter = "i";
+								    if (letter.length > 1) {
+								        var block = '<b class="class1">i<span data-item="2" data-count="1" class="ui-droppable"></span></b>';
+								        sentence = sentence + (span.text().substring(lastPosition, 5) + block);
+								    } else {
+								        var block = '<b class="class1">i<span data-item="2" data-count="1" class="ui-droppable"></span></b>';
+								        sentence = sentence + (span.text().substring(lastPosition, 5) + block);
+								    }
+
+								    lastPosition = 5 + 1;
+
+								    var letter = "i";
+								    if (letter.length > 1) {
+								        var block = '<b class="class2">i<span data-item="3" data-count="2" class="ui-droppable"></span></b>';
+								        sentence = sentence + (span.text().substring(lastPosition, 9) + block);
+								        sentence = sentence + (span.text().substring(10));
+								    } else {
+								        var block = '<b class="class2">i<span data-item="3" data-count="2" class="ui-droppable"></span></b>';
+								        sentence = sentence + (span.text().substring(lastPosition, 9) + block);
+								        sentence = sentence + (span.text().substring(10));
+								    }
+
+								    lastPosition = 9 + 1;
+								    span.html(sentence);
+								</script>
+                            </li>
+                            <li>
+                                <span id="sentence31">This is Hillary</span>
+                                <a id="sound31" href="#" class="thinking"></a>
+                                <script type="text/javascript">
+								    var span = $('#sentence31');
+								    var sentence = "";
+								    var lastPosition = 0;
+
+								    var letter = "i";
+								    if (letter.length > 1) {
+								        var block = '<b class="class0">i<span data-item="1" data-count="0" class="ui-droppable"></span></b>';
+								        sentence = sentence + (span.text().substring(lastPosition, 2) + block);
+								    } else {
+								        var block = '<b class="class0">i<span data-item="1" data-count="0" class="ui-droppable"></span></b>';
+								        sentence = sentence + (span.text().substring(lastPosition, 2) + block);
+								    }
+
+								    lastPosition = 2 + 1;
+
+								    var letter = "i";
+								    if (letter.length > 1) {
+								        var block = '<b class="class1">i<span data-item="2" data-count="1" class="ui-droppable"></span></b>';
+								        sentence = sentence + (span.text().substring(lastPosition, 5) + block);
+								    } else {
+								        var block = '<b class="class1">i<span data-item="2" data-count="1" class="ui-droppable"></span></b>';
+								        sentence = sentence + (span.text().substring(lastPosition, 5) + block);
+								    }
+
+								    lastPosition = 5 + 1;
+
+								    var letter = "i";
+								    if (letter.length > 1) {
+								        var block = '<b class="class2">i<span data-item="3" data-count="2" class="ui-droppable"></span></b>';
+								        sentence = sentence + (span.text().substring(lastPosition, 9) + block);
+								        sentence = sentence + (span.text().substring(10));
+								    } else {
+								        var block = '<b class="class2">i<span data-item="3" data-count="2" class="ui-droppable"></span></b>';
+								        sentence = sentence + (span.text().substring(lastPosition, 9) + block);
+								        sentence = sentence + (span.text().substring(10));
+								    }
+
+								    lastPosition = 9 + 1;
+								    span.html(sentence);
+								</script>
+                            </li>
+						</ul>
+						<div class="div-img">
+						    <span style="font-weight:bold" class="ui-draggable">i</span>
+						    <span style="font-weight:bold" class="ui-draggable">i:</span>
+						</div>
+						<a href="#" class="btn-prev-ex"><img src="images/btn-prev.png"></a>
+						<a href="#" class="btn-next-ex"><img src="images/btn-next.png"></a>
+						<div class="section-navigation">
+							<a href="#">Try Again</a>
+							<a href="#">Next</a>
+						</div>
+						<div class="control-nav"></div>
+						<a href="#" class="btn-resolver btn-check"><img src="images/resolver-btn.png"></a>
+					</div>
+				</div><!--end inner content-->
+			</div>
+		</div>
+		<!--end l1 u3-->
+
+		<!--begin l1 u4-->
+		<div id="level1-u4" class="escritorio escritorio-trans" data-role="page" data-title="Level L1 . U4">
+			<div data-role="panel" id="menu" class="menu-container" data-display="push" data-position="left">
+				<div class="site-login">
+					<form action="POST">
+						<i class="fa fa-user"></i>
+						<input type="text" name="uname" placeholder="Usuario">
+						<input type="password" name="pwd" placeholder="Password">
+						<input type="submit" value="Conectar">
+						<p><a href="#">Olvidaste tu contra seña</a></p>
+					</form>
+				</div>
+				<ul>
+					<li><a href="#page-four"><i class="fa fa-minus"></i>inicio</a></li>
+					<li><a href="#"><i class="fa fa-minus"></i>inglés en 20 minutos</a></li>
+					<li><a href="#page-three"><i class="fa fa-minus"></i>contenido</a></li>
+					<li><a href="#page-two"><i class="fa fa-minus"></i>Preguntas Frecuentes</a></li>
+				</ul>
+				<p class="copyright">Copyright &copy; 2012 Panamerican Language Network. Ayuda · Preguntas Frecuentes · Contacto</p>
+			</div><!-- /panel -->
+			<div data-role="header" class="header">
+				<a id="btn-menu" class="ui-btn" href="#menu"><span></span></a>
+				<p class="header-logo">Inglésen<b>20minutos</b> · L1 · U4</p>
+			</div>
+			<div class="ui-content" data-role="main">
+				<div class="inner-content">
+					<div class="content-content content-page l1u1wu">
+						<div class="awr">
+						    <ul class="items">
+						        <li>
+						            <img src="images/phppZJ4J70.955871001395094099.png" alt="" data-item="1684" />
+						            <div class="answer-wrapper">
+						                <p class="answer-choice"></p>
+						            </div>
+						            <div class="right_answer" id="right1684">
+						                <p class="PairPicturesRightAnswer"></p>
+						            </div>
+						            <span class="icon_true"></span>
+						        </li>
+						        <li>
+						            <img src="images/phpjo32sY0.959223001395094099.png" alt="" data-item="1686" />
+						            <div class="answer-wrapper">
+						                <p class="answer-choice"></p>
+						            </div>
+						            <div class="right_answer" id="right1686">
+						                <p class="PairPicturesRightAnswer"></p>
+						            </div>
+						            <span class="icon_true"></span>
+						        </li>
+						        <li>
+						            <img src="images/phptEAWQp0.959771001395094099.png" alt="" data-item="1687" />
+						            <div class="answer-wrapper">
+						                <p class="answer-choice"></p>
+						            </div>
+						            <div class="right_answer" id="right1687">
+						                <p class="PairPicturesRightAnswer"></p>
+						            </div>
+						            <span class="icon_true"></span>
+						        </li>
+						        <li>
+						            <img src="images/phplVdgmn0.950131001395094099.png" alt="" data-item="1682" />
+						            <div class="answer-wrapper">
+						                <p class="answer-choice"></p>
+						            </div>
+						            <div class="right_answer" id="right1682">
+						                <p class="PairPicturesRightAnswer"></p>
+						            </div>
+						            <span class="icon_true"></span>
+						        </li>
+						    </ul>
+						    <ul class="items">
+						        <li>
+						            <img src="images/phpZKpES50.856780001395105758.png" alt="" data-item="1692" />
+						            <div class="answer-wrapper">
+						                <p class="answer-choice"></p>
+						            </div>
+						            <div class="right_answer" id="right1692">
+						                <p class="PairPicturesRightAnswer"></p>
+						            </div>
+						            <span class="icon_true"></span>
+						        </li>
+						        <li>
+						            <img src="images/phpEAQGyo0.852926001395105162.png" alt="" data-item="1691" />
+						            <div class="answer-wrapper">
+						                <p class="answer-choice"></p>
+						            </div>
+						            <div class="right_answer" id="right1691">
+						                <p class="PairPicturesRightAnswer"></p>
+						            </div>
+						            <span class="icon_true"></span>
+						        </li>
+						        <li>
+						            <img src="images/php1Hc57L0.076437001395106039.png" alt="" data-item="1693" />
+						            <div class="answer-wrapper">
+						                <p class="answer-choice"></p>
+						            </div>
+						            <div class="right_answer" id="right1693">
+						                <p class="PairPicturesRightAnswer"></p>
+						            </div>
+						            <span class="icon_true"></span>
+						        </li>
+						        <li>
+						            <img src="images/phpte7hKk0.987246001395094099.png" alt="" data-item="1689" />
+						            <div class="answer-wrapper">
+						                <p class="answer-choice"></p>
+						            </div>
+						            <div class="right_answer" id="right1689">
+						                <p class="PairPicturesRightAnswer"></p>
+						            </div>
+						            <span class="icon_true"></span>
+						        </li>
+						    </ul>
+						</div>
+
+						<div class="txt-awr">
+						    <ul>
+						        <li data-item="1687">
+						            <div><span>Gardener</span></div>
+						            <a id="sound1687" href="#"><img class="headphone" src="images/icon-voice.png" alt="">
+						            </a>
+						        </li>
+						        <li data-item="1684">
+						            <div><span>Computer Operator</span></div>
+						            <a id="sound1684" href="#"><img class="headphone" src="images/icon-voice.png" alt="">
+						            </a>
+						        </li>
+						        <li data-item="1683">
+						            <div><span>Cashier</span></div>
+						            <a id="sound1683" href="#"><img class="headphone" src="images/icon-voice.png" alt="">
+						            </a>
+						        </li>
+						        <li data-item="1685">
+						            <div><span>Engineer</span></div>
+						            <a id="sound1685" href="#"><img class="headphone" src="images/icon-voice.png" alt="">
+						            </a>
+						        </li>
+						    </ul>
+						    <ul>
+						        <li data-item="1689">
+						            <div><span>Receptionist</span></div>
+						            <a id="sound1689" href="#"><img class="headphone" src="images/icon-voice.png" alt="">
+						            </a>
+						        </li>
+						        <li data-item="1688">
+						            <div><span>Musician</span></div>
+						            <a id="sound1688" href="#"><img class="headphone" src="images/icon-voice.png" alt="">
+						            </a>
+						        </li>
+						        <li data-item="1693">
+						            <div><span>Dentist</span></div>
+						            <a id="sound1693" href="#"><img class="headphone" src="images/icon-voice.png" alt="">
+						            </a>
+						        </li>
+						        <li data-item="1690">
+						            <div><span>Teacher</span></div>
+						            <a id="sound1690" href="#"><img class="headphone" src="images/icon-voice.png" alt="">
+						            </a>
+						        </li>
+						    </ul>
+						</div>
+						<a href="#" class="btn-prev-ex"><img src="images/btn-prev.png"></a>
+						<a href="#" class="btn-next-ex"><img src="images/btn-next.png"></a>
+						<div class="section-navigation">
+							<a href="#">Try Again</a>
+							<a href="#">Next</a>
+						</div>
+						<div class="control-nav"></div>
+						<a href="#" class="btn-resolver btn-check"><img src="images/resolver-btn.png"></a>
+					</div>
+				</div><!--end inner content-->
+			</div>
+		</div>
+		<!--end l1 u4-->
+
+		<!--begin l1 u5-->
+		<div id="level1-u5" class="escritorio escritorio-trans" data-role="page" data-title="Level L1 . U5">
+			<div data-role="panel" id="menu" class="menu-container" data-display="push" data-position="left">
+				<div class="site-login">
+					<form action="POST">
+						<i class="fa fa-user"></i>
+						<input type="text" name="uname" placeholder="Usuario">
+						<input type="password" name="pwd" placeholder="Password">
+						<input type="submit" value="Conectar">
+						<p><a href="#">Olvidaste tu contra seña</a></p>
+					</form>
+				</div>
+				<ul>
+					<li><a href="#page-four"><i class="fa fa-minus"></i>inicio</a></li>
+					<li><a href="#"><i class="fa fa-minus"></i>inglés en 20 minutos</a></li>
+					<li><a href="#page-three"><i class="fa fa-minus"></i>contenido</a></li>
+					<li><a href="#page-two"><i class="fa fa-minus"></i>Preguntas Frecuentes</a></li>
+				</ul>
+				<p class="copyright">Copyright &copy; 2012 Panamerican Language Network. Ayuda · Preguntas Frecuentes · Contacto</p>
+			</div><!-- /panel -->
+			<div data-role="header" class="header">
+				<a id="btn-menu" class="ui-btn" href="#menu"><span></span></a>
+				<p class="header-logo">Inglésen<b>20minutos</b> · L1 · U5</p>
+			</div>
+			<div class="ui-content" data-role="main">
+				<div class="inner-content">
+					<div class="content-content content-page timetowrite-e1">
+						<div class="arranging-word" style="background:none;">
+						    <p>My {name's} Lesley Brown. I'm twenty-three years old and I'm a new {assistant} at Travel Tours. Travel Tours is a travel {agency}. My new friend Hillary is the {receptionist}. {She's} married, with {three} kids. I like my {new} job, and I like my {boss}, Tom Lester, too. Clive is the computer {operator}. He's {single}, and apparently, very dangerous!</p>
+						</div>
+						<a href="#" class="btn-resolver btn-check"><img src="images/resolver-btn.png"></a>
+					</div>
+				</div><!--end inner content-->
+			</div>
+		</div>
+		<!--end l1 u5-->
+
+		<!--begin l1 u6-->
+		<div id="level1-u6" class="escritorio escritorio-trans" data-role="page" data-title="Level L1 . U6">
+			<div data-role="panel" id="menu" class="menu-container" data-display="push" data-position="left">
+				<div class="site-login">
+					<form action="POST">
+						<i class="fa fa-user"></i>
+						<input type="text" name="uname" placeholder="Usuario">
+						<input type="password" name="pwd" placeholder="Password">
+						<input type="submit" value="Conectar">
+						<p><a href="#">Olvidaste tu contra seña</a></p>
+					</form>
+				</div>
+				<ul>
+					<li><a href="#page-four"><i class="fa fa-minus"></i>inicio</a></li>
+					<li><a href="#"><i class="fa fa-minus"></i>inglés en 20 minutos</a></li>
+					<li><a href="#page-three"><i class="fa fa-minus"></i>contenido</a></li>
+					<li><a href="#page-two"><i class="fa fa-minus"></i>Preguntas Frecuentes</a></li>
+				</ul>
+				<p class="copyright">Copyright &copy; 2012 Panamerican Language Network. Ayuda · Preguntas Frecuentes · Contacto</p>
+			</div><!-- /panel -->
+			<div data-role="header" class="header">
+				<a id="btn-menu" class="ui-btn" href="#menu"><span></span></a>
+				<p class="header-logo">Inglésen<b>20minutos</b> · L1 · U6</p>
+			</div>
+			<div class="ui-content" data-role="main">
+				<div class="inner-content">
+					<div class="content-content content-page timetowrite-e2">
+						<div class="arranging-word">
+						    <form action="">
+						    	<textarea name="" id="" cols="30" rows="10"></textarea>
+						    </form>
+						</div>
+						<a href="#" class="btn-resolver btn-check"><img src="images/resolver-btn.png"></a>
+					</div>
+				</div><!--end inner content-->
+			</div>
+		</div>
+		<!--end l1 u6-->
+
+		<!--begin l1 u7-->
+		<div id="level1-u7" class="escritorio escritorio-trans" data-role="page" data-title="Level L1 . U7">
+			<div data-role="panel" id="menu" class="menu-container" data-display="push" data-position="left">
+				<div class="site-login">
+					<form action="POST">
+						<i class="fa fa-user"></i>
+						<input type="text" name="uname" placeholder="Usuario">
+						<input type="password" name="pwd" placeholder="Password">
+						<input type="submit" value="Conectar">
+						<p><a href="#">Olvidaste tu contra seña</a></p>
+					</form>
+				</div>
+				<ul>
+					<li><a href="#page-four"><i class="fa fa-minus"></i>inicio</a></li>
+					<li><a href="#"><i class="fa fa-minus"></i>inglés en 20 minutos</a></li>
+					<li><a href="#page-three"><i class="fa fa-minus"></i>contenido</a></li>
+					<li><a href="#page-two"><i class="fa fa-minus"></i>Preguntas Frecuentes</a></li>
+				</ul>
+				<p class="copyright">Copyright &copy; 2012 Panamerican Language Network. Ayuda · Preguntas Frecuentes · Contacto</p>
+			</div><!-- /panel -->
+			<div data-role="header" class="header">
+				<a id="btn-menu" class="ui-btn" href="#menu"><span></span></a>
+				<p class="header-logo">Inglésen<b>20minutos</b> · L1 · U7</p>
+			</div>
+			<div class="ui-content" data-role="main">
+				<div class="inner-content">
+					<div class="content-content content-page l1u1tr-e1">
+						<div class="l1u1tr-text">
+						    Yes, my name's Lesly Brown, I'm the new assistant.
+						</div>
+						<div class="l1u1tr-text tab1">
+						    <ul>
+						        <li style="" data-item="36">
+						            <div>
+						                Hillary is 23
+						            </div>
+						            <span>false</span><span>true</span>
+						        </li>
+						        <li style="" data-item="37">
+						            <div>
+						                She's not single
+						            </div>
+						            <span>false</span><span>true</span>
+						        </li>
+						        <li style="background: none repeat scroll 0% 0% transparent;" data-item="38">
+						            <div>
+						                She works at hotel in the city
+						            </div>
+						            <span>false</span><span>true</span>
+						        </li>
+						    </ul>
+						</div>
+						<div class="l1u1tr-text tab2" style="display: none;">
+						    <ul>
+						        <li style="" data-item="36">
+						            <div>
+						                2Hillary is 23
+						            </div>
+						            <span>false</span><span>true</span>
+						        </li>
+						        <li style="" data-item="37">
+						            <div>
+						                2She's not single
+						            </div>
+						            <span>false</span><span>true</span>
+						        </li>
+						        <li style="background: none repeat scroll 0% 0% transparent;" data-item="38">
+						            <div>
+						                2She works at hotel in the city
+						            </div>
+						            <span>false</span><span>true</span>
+						        </li>
+						    </ul>
+						</div>
+						<a href="#" class="btn-prev-ex"><img src="images/btn-prev.png"></a>
+						<a href="#" class="btn-next-ex"><img src="images/btn-next.png"></a>
+						<div class="section-navigation">
+							<a href="#">Try Again</a>
+							<a href="#">Next</a>
+						</div>
+						<div class="control-nav"></div>
+						<a href="#" class="btn-resolver btn-check"><img src="images/resolver-btn.png"></a>
+					</div>
+				</div><!--end inner content-->
+			</div>
+		</div>
+		<!--end l1 u7-->
+
+		<!--begin l1 u8-->
+		<div id="level1-u8" class="escritorio escritorio-trans" data-role="page" data-title="Level L1 . U8">
+			<div data-role="panel" id="menu" class="menu-container" data-display="push" data-position="left">
+				<div class="site-login">
+					<form action="POST">
+						<i class="fa fa-user"></i>
+						<input type="text" name="uname" placeholder="Usuario">
+						<input type="password" name="pwd" placeholder="Password">
+						<input type="submit" value="Conectar">
+						<p><a href="#">Olvidaste tu contra seña</a></p>
+					</form>
+				</div>
+				<ul>
+					<li><a href="#page-four"><i class="fa fa-minus"></i>inicio</a></li>
+					<li><a href="#"><i class="fa fa-minus"></i>inglés en 20 minutos</a></li>
+					<li><a href="#page-three"><i class="fa fa-minus"></i>contenido</a></li>
+					<li><a href="#page-two"><i class="fa fa-minus"></i>Preguntas Frecuentes</a></li>
+				</ul>
+				<p class="copyright">Copyright &copy; 2012 Panamerican Language Network. Ayuda · Preguntas Frecuentes · Contacto</p>
+			</div><!-- /panel -->
+			<div data-role="header" class="header">
+				<a id="btn-menu" class="ui-btn" href="#menu"><span></span></a>
+				<p class="header-logo">Inglésen<b>20minutos</b> · L1 · U8</p>
+			</div>
+			<div class="ui-content" data-role="main">
+				<div class="inner-content">
+					<div class="content-content content-page choose-teacher">
+						<div class="inner-choose-teacher">
+							<p><b>Selecciona a uno de los cuatro personajes</b></p>
+							<ul class="list-teacher">
+								<li>
+									<img src="images/teacher1.png" alt="">
+									<img src="images/teacher1-bw.png" alt="">
+								</li>
+								<li>
+									<img src="images/teacher2.png" alt="">
+									<img src="images/teacher2-bw.png" alt="">
+								</li>
+								<li>
+									<img src="images/teacher3.png" alt="">
+									<img src="images/teacher3-bw.png" alt="">
+								</li>
+								<li>
+									<img src="images/teacher4.png" alt="">
+									<img src="images/teacher4-bw.png" alt="">
+								</li>
+							</ul>
+						</div>
+						<a href="#" class="btn-resolver btn-check"><img src="images/resolver-btn.png"></a>
+					</div>
+				</div><!--end inner content-->
+			</div>
+		</div>
+		<!--end l1 u8-->
+
+		<!--begin l1 u9-->
+		<div id="level1-u9" class="escritorio escritorio-trans" data-role="page" data-title="Level L1 . U9">
+			<div data-role="panel" id="menu" class="menu-container" data-display="push" data-position="left">
+				<div class="site-login">
+					<form action="POST">
+						<i class="fa fa-user"></i>
+						<input type="text" name="uname" placeholder="Usuario">
+						<input type="password" name="pwd" placeholder="Password">
+						<input type="submit" value="Conectar">
+						<p><a href="#">Olvidaste tu contra seña</a></p>
+					</form>
+				</div>
+				<ul>
+					<li><a href="#page-four"><i class="fa fa-minus"></i>inicio</a></li>
+					<li><a href="#"><i class="fa fa-minus"></i>inglés en 20 minutos</a></li>
+					<li><a href="#page-three"><i class="fa fa-minus"></i>contenido</a></li>
+					<li><a href="#page-two"><i class="fa fa-minus"></i>Preguntas Frecuentes</a></li>
+				</ul>
+				<p class="copyright">Copyright &copy; 2012 Panamerican Language Network. Ayuda · Preguntas Frecuentes · Contacto</p>
+			</div><!-- /panel -->
+			<div data-role="header" class="header">
+				<a id="btn-menu" class="ui-btn" href="#menu"><span></span></a>
+				<p class="header-logo">Inglésen<b>20minutos</b> · L1 · U9</p>
+			</div>
+			<div class="ui-content" data-role="main">
+				<div class="inner-content">
+					<div class="content-content content-page record-talk">
+						<ul class="list-text">
+							<li>
+								<div class="desc-text">
+									<p>Yes, my name's Lesley Brown, I'm the new assistant.</p>
+									<span class="empty"></span>
+								</div>
+								<div class="list-control">
+									<a href="#">Original</a>
+									<a href="#">Grabar</a>
+									<a href="#">Escuchar</a>
+								</div>
+							</li>
+							<li>
+								<div class="desc-text">
+									<p>Yes, my name's Lesley Brown, I'm the new assistant.</p>
+									<span class="empty"></span>
+								</div>
+								<div class="list-control">
+									<a href="#">Original</a>
+									<a href="#">Grabar</a>
+									<a href="#">Escuchar</a>
+								</div>
+							</li>
+						</ul>
+						<a href="#" class="btn-prev-ex"><img src="images/btn-prev.png"></a>
+						<a href="#" class="btn-next-ex"><img src="images/btn-next.png"></a>
+						<div class="section-navigation">
+							<a href="#">Try Again</a>
+							<a href="#">Next</a>
+						</div>
+						<div class="control-nav"></div>
+						<a href="#" class="btn-resolver btn-check"><img src="images/resolver-btn.png"></a>
+					</div>
+				</div><!--end inner content-->
+			</div>
+		</div>
+		<!--end l1 u9-->
+
+		<!--begin l1 u10-->
+		<div id="level1-u10" class="escritorio escritorio-trans" data-role="page" data-title="Level L1 . U10">
+			<div data-role="panel" id="menu" class="menu-container" data-display="push" data-position="left">
+				<div class="site-login">
+					<form action="POST">
+						<i class="fa fa-user"></i>
+						<input type="text" name="uname" placeholder="Usuario">
+						<input type="password" name="pwd" placeholder="Password">
+						<input type="submit" value="Conectar">
+						<p><a href="#">Olvidaste tu contra seña</a></p>
+					</form>
+				</div>
+				<ul>
+					<li><a href="#page-four"><i class="fa fa-minus"></i>inicio</a></li>
+					<li><a href="#"><i class="fa fa-minus"></i>inglés en 20 minutos</a></li>
+					<li><a href="#page-three"><i class="fa fa-minus"></i>contenido</a></li>
+					<li><a href="#page-two"><i class="fa fa-minus"></i>Preguntas Frecuentes</a></li>
+				</ul>
+				<p class="copyright">Copyright &copy; 2012 Panamerican Language Network. Ayuda · Preguntas Frecuentes · Contacto</p>
+			</div><!-- /panel -->
+			<div data-role="header" class="header">
+				<a id="btn-menu" class="ui-btn" href="#menu"><span></span></a>
+				<p class="header-logo">Inglésen<b>20minutos</b> · L1 · U10</p>
+			</div>
+			<div class="ui-content" data-role="main">
+				<div class="inner-content">
+					<div class="content-content content-page role-play l1u1tt-e2">
+						<div class="img_people" id="character_list">
+							<ul class="list-talk">
+							    <li turn="0" id="3684" class="active" audio="uploads/attachments/phpYx3stB0.744030001412106536.mp3" data-charid="5201">
+							        <div class="talk-img">
+							            <img alt="" src="images/teacher1.png" />
+							        </div>
+							        <div class="dialog-globe-grey">
+							            <div class="talk-mid">
+							                <span>Oh, my God! I’m sorry! I’m a bit nervous...</span>
+							            </div>
+							            <div class="control">
+							            	<a href="#"><img src="images/1.png" alt=""></a>
+							            	<a href="#"><img src="images/2.png" alt=""></a>
+							            	<a href="#"><img src="images/3.png" alt=""></a>
+							            	<a href="#"><img src="images/4.png" alt=""></a>
+							            </div>
+							        </div>
+							        <div class="clearfix"></div>
+							    </li>
+							    <li turn="1" id="3691" audio="uploads/attachments/phpFpGlCd0.759218001412106536.mp3" data-charid="5202">
+							        <div class="talk-img">
+							            <img alt="" src="images/teacher4.png" />
+							        </div>
+							        <div class="dialog-globe-grey">
+							            <div class="talk-mid">
+							                <span>Yes, I can see that. Oh,... but it&#039;s normal...relax, everything will be fine.</span>
+							            </div>
+							            <div class="control">
+							            	<a href="#"><img src="images/1.png" alt=""></a>
+							            	<a href="#"><img src="images/2.png" alt=""></a>
+							            	<a href="#"><img src="images/3.png" alt=""></a>
+							            	<a href="#"><img src="images/4.png" alt=""></a>
+							            </div>
+							        </div>
+							        <div class="clearfix"></div>
+							    </li>
+							    <li turn="2" id="3692" audio="uploads/attachments/phpapS5wY0.762108001412106536.mp3" data-charid="5202">
+							        <div class="talk-img">
+							            <img alt="" src="images/teacher1.png" />
+							        </div>
+							        <div class="dialog-globe-grey">
+							            <div class="talk-mid">
+							                <span>How old are you?</span>
+							            </div>
+							            <div class="control">
+							            	<a href="#"><img src="images/1.png" alt=""></a>
+							            	<a href="#"><img src="images/2.png" alt=""></a>
+							            	<a href="#"><img src="images/3.png" alt=""></a>
+							            	<a href="#"><img src="images/4.png" alt=""></a>
+							            </div>
+							        </div>
+							        <div class="clearfix"></div>
+							    </li>
+							    <li turn="3" id="3685" audio="uploads/attachments/phphBwJNj0.748824001412106536.mp3" data-charid="5201">
+							        <div class="talk-img">
+							            <img alt="" src="images/teacher4.png" />
+							        </div>
+							        <div class="dialog-globe-grey">
+							            <div class="talk-mid">
+							                <span>I’m 23.</span>
+							            </div>
+							            <div class="control">
+							            	<a href="#"><img src="images/1.png" alt=""></a>
+							            	<a href="#"><img src="images/2.png" alt=""></a>
+							            	<a href="#"><img src="images/3.png" alt=""></a>
+							            	<a href="#"><img src="images/4.png" alt=""></a>
+							            </div>
+							        </div>
+							        <div class="clearfix"></div>
+							    </li>
+							    <li turn="4" id="3693" audio="uploads/attachments/php5zfyAJ0.763713001412106536.mp3" data-charid="5202">
+							        <div class="talk-img">
+							            <img alt="" src="images/teacher1.png" />
+							        </div>
+							        <div class="dialog-globe-grey">
+							            <div class="talk-mid">
+							                <span>Are you married or single?</span>
+							            </div>
+							            <div class="control">
+							            	<a href="#"><img src="images/1.png" alt=""></a>
+							            	<a href="#"><img src="images/2.png" alt=""></a>
+							            	<a href="#"><img src="images/3.png" alt=""></a>
+							            	<a href="#"><img src="images/4.png" alt=""></a>
+							            </div>
+							        </div>
+							        <div class="clearfix"></div>
+							    </li>
+							    <li turn="5" id="3686" audio="uploads/attachments/phpOHRTv20.750301001412106536.mp3" data-charid="5201">
+							        <div class="talk-img">
+							            <img alt="" src="images/teacher4.png" />
+							        </div>
+							        <div class="dialog-globe-grey">
+							            <div class="talk-mid">
+							                <span>I’m single. And you?</span>
+							            </div>
+							            <div class="control">
+							            	<a href="#"><img src="images/1.png" alt=""></a>
+							            	<a href="#"><img src="images/2.png" alt=""></a>
+							            	<a href="#"><img src="images/3.png" alt=""></a>
+							            	<a href="#"><img src="images/4.png" alt=""></a>
+							            </div>
+							        </div>
+							        <div class="clearfix"></div>
+							    </li>
+							    <li turn="6" id="3694" audio="uploads/attachments/phpiYAQKu0.764856001412106536.mp3" data-charid="5202">
+							        <div class="talk-img">
+							            <img alt="" src="images/teacher1.png" />
+							        </div>
+							        <div class="dialog-globe-grey">
+							            <div class="talk-mid">
+							                <span>Oh, I’m married, with three children.</span>
+							            </div>
+							            <div class="control">
+							            	<a href="#"><img src="images/1.png" alt=""></a>
+							            	<a href="#"><img src="images/2.png" alt=""></a>
+							            	<a href="#"><img src="images/3.png" alt=""></a>
+							            	<a href="#"><img src="images/4.png" alt=""></a>
+							            </div>
+							        </div>
+							        <div class="clearfix"></div>
+							    </li>
+							    <li turn="7" id="3687" audio="uploads/attachments/phpJq8JtL0.751524001412106536.mp3" data-charid="5201">
+							        <div class="talk-img">
+							            <img alt="" src="images/teacher4.png" />
+							        </div>
+							        <div class="dialog-globe-grey">
+							            <div class="talk-mid">
+							                <span>Really, how old are you?</span>
+							            </div>
+							            <div class="control">
+							            	<a href="#"><img src="images/1.png" alt=""></a>
+							            	<a href="#"><img src="images/2.png" alt=""></a>
+							            	<a href="#"><img src="images/3.png" alt=""></a>
+							            	<a href="#"><img src="images/4.png" alt=""></a>
+							            </div>
+							        </div>
+							        <div class="clearfix"></div>
+							    </li>
+							    <li turn="8" id="3695" audio="uploads/attachments/phpfSur7f0.766553001412106536.mp3" data-charid="5202">
+							        <div class="talk-img">
+							            <img alt="" src="images/teacher1.png" />
+							        </div>
+							        <div class="dialog-globe-grey">
+							            <div class="talk-mid">
+							                <span>I’m 30...</span>
+							            </div>
+							            <div class="control">
+							            	<a href="#"><img src="images/1.png" alt=""></a>
+							            	<a href="#"><img src="images/2.png" alt=""></a>
+							            	<a href="#"><img src="images/3.png" alt=""></a>
+							            	<a href="#"><img src="images/4.png" alt=""></a>
+							            </div>
+							        </div>
+							        <div class="clearfix"></div>
+							    </li>
+							    <li turn="9" id="3688" audio="uploads/attachments/phpWmNWNu0.753332001412106536.mp3" data-charid="5201">
+							        <div class="talk-img">
+							            <img alt="" src="images/teacher4.png" />
+							        </div>
+							        <div class="dialog-globe-grey">
+							            <div class="talk-mid">
+							                <span>Wow! You look younger....</span>
+							            </div>
+							            <div class="control">
+							            	<a href="#"><img src="images/1.png" alt=""></a>
+							            	<a href="#"><img src="images/2.png" alt=""></a>
+							            	<a href="#"><img src="images/3.png" alt=""></a>
+							            	<a href="#"><img src="images/4.png" alt=""></a>
+							            </div>
+							        </div>
+							        <div class="clearfix"></div>
+							    </li>
+							    <li turn="10" id="3689" audio="uploads/attachments/phpL0ePhe0.755174001412106536.mp3" data-charid="5201">
+							        <div class="talk-img">
+							            <img alt="" src="images/teacher1.png" />
+							        </div>
+							        <div class="dialog-globe-grey">
+							            <div class="talk-mid">
+							                <span>She’s 30… I’m just 23… Uh,... is Clive married?</span>
+							            </div>
+							            <div class="control">
+							            	<a href="#"><img src="images/1.png" alt=""></a>
+							            	<a href="#"><img src="images/2.png" alt=""></a>
+							            	<a href="#"><img src="images/3.png" alt=""></a>
+							            	<a href="#"><img src="images/4.png" alt=""></a>
+							            </div>
+							        </div>
+							        <div class="clearfix"></div>
+							    </li>
+							    <li turn="11" id="3696" audio="uploads/attachments/phpKt61A10.767679001412106536.mp3" data-charid="5202">
+							        <div class="talk-img">
+							            <img alt="" src="images/teacher4.png" />
+							        </div>
+							        <div class="dialog-globe-grey">
+							            <div class="talk-mid">
+							                <span>Clive? No, he’s not...</span>
+							            </div>
+							            <div class="control">
+							            	<a href="#"><img src="images/1.png" alt=""></a>
+							            	<a href="#"><img src="images/2.png" alt=""></a>
+							            	<a href="#"><img src="images/3.png" alt=""></a>
+							            	<a href="#"><img src="images/4.png" alt=""></a>
+							            </div>
+							        </div>
+							        <div class="clearfix"></div>
+							    </li>
+							    <li turn="12" id="3690" audio="uploads/attachments/phpqDySqY0.757725001412106536.mp3" data-charid="5201">
+							        <div class="talk-img">
+							            <img alt="" src="images/teacher1.png" />
+							        </div>
+							        <div class="dialog-globe-grey">
+							            <div class="talk-mid">
+							                <span>Mmm! This coffee is great...</span>
+							            </div>
+							            <div class="control">
+							            	<a href="#"><img src="images/1.png" alt=""></a>
+							            	<a href="#"><img src="images/2.png" alt=""></a>
+							            	<a href="#"><img src="images/3.png" alt=""></a>
+							            	<a href="#"><img src="images/4.png" alt=""></a>
+							            </div>
+							        </div>
+							        <div class="clearfix"></div>
+							    </li>
+							</ul>  		
+						</div>
+						<div class="list-control">
+							<a href="#"><b>Original</b> <span class="empty"></span></a>
+							<a href="#"><b>Grabar</b> <span class="empty"></span></a>
+							<a href="#"><b>Escuchar</b> <span class="empty"></span></a>
+							<a href="#"><b>Dialogo Completo</b><span class="empty"></span></a>
+							<a href="#"><b>Dialogo Remplazado</b><span class="empty"></span></a>
+						</div>
+						<div class="control-nav"></div>
+						<a href="#" class="btn-resolver btn-check"><img src="images/resolver-btn.png"></a>
+					</div>
+				</div><!--end inner content-->
+			</div>
+		</div>
+		<!--end l1 u10-->
+	</div>
+</body>
+</html>

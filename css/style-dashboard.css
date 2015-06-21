@@ -1,0 +1,337 @@
+.progress-text {
+    font-size: 10px;
+    padding: 5px;
+    position: relative;
+    right: -20px;
+}
+.progress-level div {
+    font-size: 12px;
+}
+.line-progress-level {
+    background: none repeat scroll 0 0 / cover #535353;
+    border-radius: 10px;
+    height: 16px;
+    left: -36px;
+    position: relative;
+    top: 4px;
+    width: 242px;
+}
+.bg-grey {
+    background: none repeat scroll 0 0 #81868b;
+    border-radius: 10px;
+    box-shadow: 0 -2px 0 rgba(255, 255, 255, 0.5);
+    height: 14px;
+    left: 0;
+    position: absolute;
+    top: 2px;
+}
+.bg-grey-progress-5 {
+    width: 12px;
+}
+.bg-grey-progress-10 {
+    width: 24px;
+}
+.bg-grey-progress-15 {
+    width: 36px;
+}
+.bg-grey-progress-20 {
+    width: 48px;
+}
+.bg-grey-progress-25 {
+    width: 60px;
+}
+.bg-grey-progress-30 {
+    width: 72px;
+}
+.bg-grey-progress-35 {
+    width: 84px;
+}
+.bg-grey-progress-40 {
+    width: 96px;
+}
+.bg-grey-progress-45 {
+    width: 108px;
+}
+.bg-grey-progress-50 {
+    width: 121px;
+}
+.bg-grey-progress-55 {
+    width: 133px;
+}
+.bg-grey-progress-60 {
+    width: 145px;
+}
+.bg-grey-progress-60 {
+    width: 157px;
+}
+.bg-grey-progress-70 {
+    width: 169px;
+}
+.bg-grey-progress-75 {
+    width: 181px;
+}
+.bg-grey-progress-80 {
+    width: 193px;
+}
+.bg-grey-progress-85 {
+    width: 205px;
+}
+.bg-grey-progress-90 {
+    width: 217px;
+}
+.bg-grey-progress-95 {
+    width: 229px;
+}
+.bg-grey-progress-100 {
+    width: 242px;
+}
+.circle-progress {
+    background: none repeat scroll 0 0 #63676b;
+    border-radius: 5px;
+    box-shadow: -1px -1px 1px rgba(0, 0, 0, 0.8);
+    float: right;
+    height: 9px;
+    position: relative;
+    right: 4px;
+    top: 2px;
+    width: 9px;
+}
+.line {
+    background: #f1f1f1;
+    height: 17px;
+    position: relative;
+}
+.line img {
+    float: right;
+    margin: 5px 10px 0 -17px;
+}
+.bg-green {
+    background: #95cc5f;
+    height: 17px;
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+.bg-green-progress-5 {
+    width: 5%;
+}
+.bg-green-progress-10 {
+    width: 10%;
+}
+.bg-green-progress-15 {
+    width: 15%;
+}
+.bg-green-progress-20 {
+    width: 20%;
+}
+.bg-green-progress-25 {
+    width: 25%;
+}
+.bg-green-progress-30 {
+    width: 30%;
+}
+.bg-green-progress-35 {
+    width: 35%;
+}
+.bg-green-progress-40 {
+    width: 40%;
+}
+.bg-green-progress-45 {
+    width: 45%;
+}
+.bg-green-progress-50 {
+    width: 50%;
+}
+.bg-green-progress-55 {
+    width: 55%;
+}
+.bg-green-progress-60 {
+    width: 60%;
+}
+.bg-green-progress-65 {
+    width: 65%;
+}
+.bg-green-progress-70 {
+    width: 70%;
+}
+.bg-green-progress-75 {
+    width: 75%;
+}
+.bg-green-progress-80 {
+    width: 80%;
+}
+.bg-green-progress-85 {
+    width: 85%;
+}
+.bg-green-progress-90 {
+    width: 90%;
+}
+.bg-green-progress-95 {
+    width: 95%;
+}
+.bg-green-progress-100 {
+    width: 100%;
+}
+.arrow-yellow {
+    position: absolute;
+    top: -38px;
+}
+.arrow-yellow-progress-5 {
+    left: 5%;
+}
+.arrow-yellow-progress-10 {
+    left: 10%;
+}
+.arrow-yellow-progress-15 {
+    left: 15%;
+}
+.arrow-yellow-progress-20 {
+    left: 20%;
+}
+.arrow-yellow-progress-25 {
+    left: 25%;
+}
+.arrow-yellow-progress-30 {
+    left: 30%;
+}
+.arrow-yellow-progress-35 {
+    left: 35%;
+}
+.arrow-yellow-progress-40 {
+    left: 40%;
+}
+.arrow-yellow-progress-45 {
+    left: 45%;
+}
+.arrow-yellow-progress-50 {
+    left: 50%;
+}
+.arrow-yellow-progress-55 {
+    left: 55%;
+}
+.arrow-yellow-progress-60 {
+    left: 60%;
+}
+.arrow-yellow-progress-65 {
+    left: 65%;
+}
+.arrow-yellow-progress-70 {
+    left: 70%;
+}
+.arrow-yellow-progress-75 {
+    left: 75%;
+}
+.arrow-yellow-progress-80 {
+    left: 80%;
+}
+.arrow-yellow-progress-85 {
+    left: 85%;
+}
+.arrow-yellow-progress-90 {
+    left: 90%;
+}
+.arrow-yellow-progress-95 {
+    left: 95%;
+}
+.arrow-yellow-progress-100 {
+    left: 100%;
+}
+.line-percent ul li.progress-active {
+    background-image: none !important;
+    color: #fff !important;
+}
+.arrow-pink {
+    position: absolute;
+    top: -71px;
+}
+.arrow-pink-progress-5 {
+    left: 16px;
+}
+.arrow-pink-progress-10 {
+    left: 35px;
+}
+.arrow-pink-progress-15 {
+    left: 65px;
+}
+.arrow-pink-progress-20 {
+    left: 94px;
+}
+.arrow-pink-progress-25 {
+    left: 124px;
+}
+.arrow-pink-progress-30 {
+    left: 155px;
+}
+.arrow-pink-progress-35 {
+    left: 185px;
+}
+.arrow-pink-progress-40 {
+    left: 215px;
+}
+.arrow-pink-progress-45 {
+    left: 245px;
+}
+.arrow-pink-progress-50 {
+    left: 275px;
+}
+.arrow-pink-progress-55 {
+    left: 305px;
+}
+.arrow-pink-progress-60 {
+    left: 336px;
+}
+.arrow-pink-progress-65 {
+    left: 366px;
+}
+.arrow-pink-progress-70 {
+    left: 396px;
+}
+.arrow-pink-progress-75 {
+    left: 426px;
+}
+.arrow-pink-progress-80 {
+    left: 456px;
+}
+.arrow-pink-progress-85 {
+    left: 486px;
+}
+.arrow-pink-progress-90 {
+    left: 517px;
+}
+.arrow-pink-progress-95 {
+    left: 547px;
+}
+.arrow-pink-progress-100 {
+    left: 583px;
+}
+.circle {
+    height: 120px;
+    position: absolute;
+    right: 80px;
+    top: 39px;
+    width: 120px;
+}
+.circle p {
+    color: #ffffff;
+    font-family: "roboto",Arial,Tahoma;
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 11px;
+    padding: 52px 13px 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+.desbloquedado {
+    background: url("../img/desbloquedado.png") no-repeat scroll left top rgba(0, 0, 0, 0);
+}
+.correcto {
+    background: url("../img/correcto.png") no-repeat scroll left top rgba(0, 0, 0, 0);
+}
+.incorrecto {
+    background: url("../img/incorrecto.png") no-repeat scroll left top rgba(0, 0, 0, 0);
+}
+.progressbar-user-box img {
+    float: left;
+    height: 57px;
+    width: 55px;
+}

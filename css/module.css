@@ -1,0 +1,215 @@
+/*Module Header*/
+.header-logo {
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 20px;
+    letter-spacing: -1px;
+    margin: 0px;
+    text-transform: uppercase;
+    font-weight: 300;
+    display: inline-block;
+    zoom: 1;
+    
+    vertical-align: top;
+    line-height: 40px;
+    text-shadow: none;
+    letter-spacing: -1px;
+}
+
+.header-logo b{
+    font-family: Roboto;
+    font-weight: 500;
+}
+
+/* Navigation (Menu) */
+#btn-menu{
+	display: inline-block;
+	zoom: 1;
+	
+	vertical-align: top;
+	width: 40px;
+	height: 36px;
+	z-index: 2;
+	background: #0c84d6;
+	border: none;
+	box-shadow: none;
+	left: 0px;
+	padding: 0px;
+	top: 4px;
+	position: relative;
+	background: url("../images/header_bgr.png") repeat scroll left top;
+}
+.ui-field-contain, .ui-mobile fieldset.ui-field-contain{
+	padding: 2px 0px;
+}
+#btn-menu:before,#btn-menu:after,#btn-menu span{
+	background: #fff;
+	content: '';
+	display: block;
+	height: 3px;
+	position: absolute;
+	left: 10px;
+	right: 10px;
+	margin: 21px 0px;
+	border-radius: 10px;
+}
+#btn-menu:before{
+	top: 0px;
+}
+#btn-menu:after{
+	bottom: 3px;
+}
+#btn-menu span{
+	top: 50%;
+	margin-top: -3px;
+}
+
+/*Module Navigation*/
+
+#wrapper .menu-container .profile{
+	padding: 0px 10px;
+	line-height: 39px;
+}
+
+#wrapper .menu-container .profile .name-user{
+	float: left;
+	font-weight: 700;
+	color: #fff;
+	font-style: 
+}
+
+#wrapper .menu-container i.fa{
+	display: inline-block;
+	zoom:1;
+	
+	vertical-align: middle;
+	margin-right: 5px;
+	margin-left: 5px;
+	color: #fff !important;
+}
+
+#wrapper .menu-container .profile .btn-logout{
+	float: right;
+	text-decoration: none;
+	color: #acacac;
+}
+
+#wrapper .menu-container .profile .btn-logout:hover{
+	color: #999;
+}
+
+#wrapper .ui-overlay-a, .ui-page-theme-a, .ui-page-theme-a .ui-panel-wrapper {
+  	color: #333;
+	text-shadow: inherit;
+}
+
+#wrapper .menu-container ul{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 12px ;
+	text-align: left;
+}
+
+#wrapper .menu-container ul li{
+	border-top: 1px solid #313131;
+	min-height: 39px;
+	line-height: 39px;
+	position: relative;
+	text-indent: 5px;
+}
+
+#wrapper .menu-container ul li > a{
+
+}
+
+#wrapper .menu-container ul li.active > a{
+	color: #eb7676;
+}
+
+#wrapper .menu-container ul li.active > a{
+
+}
+
+#wrapper .menu-container ul li a{
+	text-decoration: none;
+	color: #fff;
+	display: block;
+}
+
+#wrapper .menu-container .ui-panel-inner > ul > li:hover > a{
+	color: #999;
+}
+
+#wrapper .menu-container .ui-panel-inner > ul li.haschild{
+	background: url(../images/icon-arrow3.png) no-repeat 95% 18px;
+}
+
+#wrapper .menu-container ul li li li:hover,#wrapper .menu-container ul li li li.active-sub{
+	background: #404040;
+}
+#wrapper .menu-container ul li li li:hover > a,#wrapper .menu-container ul li li li.active-sub a{
+	border-left: 3px solid #e96667;
+	background: #404040;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#wrapper .menu-container ul li li li:hover > a,#wrapper .menu-container ul li li li.active-sub a{
+	color: #fff;
+}
+
+#wrapper .menu-container ul li ul{
+	display: none;
+}
+
+#wrapper .menu-container ul li span.notifi{
+	position: absolute;
+	right: 10px;
+	min-width: 20px;
+	min-height: 20px;
+	border-radius: 50%;
+	background: #cc3333;
+	text-indent: 0px;
+	line-height: 20px;
+	text-align: center;
+	top: 10px;
+	color: #fff;
+}
+
+#wrapper .menu-container ul li li a{
+	padding-left: 10px;
+}
+
+#wrapper .menu-container ul li li li a{
+	padding-left: 25px;
+}
+
+#wrapper .menu-container ul li li li li a{
+	padding-left: 35px;
+}
+
+#wrapper .menu-container ul li li li a{
+	color: #676767;
+}
+
+#wrapper .menu-container ul li li li i.fa{
+	-moz-transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+	vertical-align: super;
+}
+
+#wrapper .menu-container p.copyright{
+	font-size: 12px;
+	color: #585858;
+	padding: 10px;
+	text-align: left;
+}
